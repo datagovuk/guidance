@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Guidance : Guidance for data.gov.uk users, publishers and sysadmins">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>{% if page.title %} {{ page.title }} | {% endif %} data.gov.uk Guidance</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+
+          <h1 id="project_title"><a href="{{site.baseurl}}/">data.gov.uk Guidance</a></h1>
+          <h2 id="project_tagline">for users, publishers and sysadmins</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Guidance maintained by <a href="https://github.com/datagovuk">data.gov.uk</a></p>
+        <a href="https://github.com/datagovuk/guidance/blob/gh-pages/{{page.path}}">View on GitHub</a>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
+

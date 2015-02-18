@@ -1,0 +1,14 @@
+markdown: kramdown
+
+baseurl: /guidance
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+kramdown:
+  input: GFM  # Github flavoured markdown allowed
