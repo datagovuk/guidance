@@ -60,6 +60,6 @@ This account is currently the same as any member of the public - it can create c
 ![editor request response](images/become_editor_request_submitted.png)
 You should be emailed by this organization when you have been made an editor. If you don't hear back for a couple of days, contact the data.gov.uk team using the Contact link at the bottom of the web page.
 
-Once you are an editor or admin you will see the blue spanner icon when logged in, and can now [publish data](publishing_on_data_gov_uk_overview.md). 
+Once you are an editor or admin you will see the blue spanner icon when logged in, and can now [publish data](publishing_on_data_gov_uk_overview.html).
 ![editor spanner](images/become_editor_spanner.png)
 

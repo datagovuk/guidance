@@ -3,21 +3,14 @@ title: INSPIRE
 layout: "default"
 ---
 
-INSPIRE legislation: EU [INSPIRE Directive (2007/2/EC)](http://eur-lex.europa.eu/JOHtml.do?uri=OJ:L:2007:108:SOM:EN:HTML), and associated [UK Regulation](http://data.gov.uk/location/inspire)
+## INSPIRE Links (for the UK)
 
-# Links (for the UK)
-
-* Homepage: <http://data.gov.uk/location>
+* Home page: <http://data.gov.uk/location>
 * Guidance and tools: <http://data.gov.uk/location/guidance_and_tools>
 * Help: [Location/INSPIRE Helpdesk](mailto:UK-INSPIRE-Help@defra.gsi.gov.uk) (provided by Defra)
+* [INSPIRE/Location records on data.gov.uk](http://data.gov.uk/data/search?UKLP=True)
 
-# INSPIRE on data.gov.uk
-
-INSPIRE/Location records can be seen on data.gov.uk here: <http://data.gov.uk/data/search?UKLP=True>
-
-[Overview of publishing INSPIRE on data.gov.uk](publishing_on_data_gov_uk_overview.md)
-
-# INSPIRE scope
+## INSPIRE scope
 
 INSPIRE places obligations on these publishers and sorts of data:
 
@@ -25,4 +18,12 @@ INSPIRE places obligations on these publishers and sorts of data:
 * geo-spatial data (i.e. the data points contain a location e.g. latitude/longitude or post code etc)
 * data that is in any of the [34 INSPIRE themes](http://inspire.ec.europa.eu/index.cfm/pageid/2/list/7), however UK Location encourages ALL geo-spatial data to be published the INSPIRE way
 * published data (the law does not compel you to publish data that is not currently published)
+
+## Harvesting INSPIRE/Location data
+
+The INSPIRE legislation requires most geo-spatial data to be published according to certain standards, and be registered on data.gov.uk in a certain way. The records must be published in GEMINI2 format and be harvested. Common ways to do this are:
+
+* Metadata records are created at the "UK Location Metadata Editor" website. You fill in the web form to create each record and the website publishes them at a 'WAF service' which data.gov.uk harvests. Geographical software is also required to provide the data to users in a way that fulfils the INSPIRE 'View' and 'Download' requirements.
+
+* Data is stored in a GIS (Geographic Information System). This is common for departments and local authorities that have an established geo-spatial data capability. Commonly used products include the open source GeoNetworks or ArcGIS. The GIS provides a 'WMS service' for users to preview the data and 'WFS service' or 'Atom feed' for users to download the data. The GIS also publishes the metadata records for the datasets at a 'CSW service', which data.gov.uk is then configured to harvest from.
 
