@@ -16,12 +16,17 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-
-          <h1 id="project_title"><a href="{{site.baseurl}}/">data.gov.uk Guidance</a></h1>
+          <h1 id="project_title">
+            <a rel="home" href="{{site.baseurl}}/">
+              <div id="dgu_logo"></div>
+              Guidance
+            </a>
+          </h1>
           <h2 id="project_tagline">for users, publishers and sysadmins</h2>
 
         </header>
     </div>
+    <div id="greenbar"></div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
@@ -35,9 +40,12 @@
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
+      <div id="greenbar"></div>
       <footer class="inner">
-        <p class="copyright">Guidance maintained by <a href="https://github.com/datagovuk">data.gov.uk</a></p>
-        <a href="https://github.com/datagovuk/guidance/blob/gh-pages/{{page.path}}">View on GitHub</a>
+        <ul>
+          <li><a href="http://data.gov.uk/contact" title="">Contact data.gov.uk</a></li>
+          <li><a href="https://github.com/datagovuk/guidance/blob/gh-pages/{{page.path}}">View on GitHub</a></li>
+        </ul>
       </footer>
     </div>
 

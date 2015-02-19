@@ -9,6 +9,8 @@ There are two main methods for adding datasets to data.gov.uk:
 
 2. Using a harvester. You store the dataset records on your own server and they are 'harvested' regularly into data.gov.uk. It requires some set-up, but it is ideal when there is already a published list of datasets on your site (or elsewhere).
 
+Before you need to [register a user account on data.gov.uk and get approved as 'editor' or 'admin' for your publisher](becoming_an_editor_or_admin.html).
+
 ## INSPIRE/Location data
 
 The INSPIRE legislation requires most geo-spatial data to be published according to certain standards, and be registered on data.gov.uk in a certain way. The records must be published in GEMINI2 format and be harvested. Common ways to do this are:
