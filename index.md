@@ -10,6 +10,8 @@ layout: "default"
 
   * [Web form for adding/updating datasets](dataset_form.html)
 
+    * [Monthly datasets problem](monthly_datasets_problem.html)
+
   * [Harvesting (non-Location) datasets](harvesting_non_location.html)
 
   * [INSPIRE](inspire.html) (overview)

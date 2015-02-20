@@ -44,10 +44,11 @@ Many fields have an 'information' icon, which displays more guidance if you hove
 
 ### Timeseries vs Single File
 
-It is very important that you select the right type of dataset. If you are publishing a dataset that will have updates across time (yearly, monthly, etc.) then make sure you select th 
-timeseries option on the data files section. This will allow the date of the file to dictate the sorting, so the latest file is automatically presented on top and everything else falls in chronological order.
+It is very important that you select the right type of dataset. If you are publishing a dataset that will have updates across time (yearly, monthly, etc.) then make sure you select the timeseries option on the data files section. This will allow the date of the file to dictate the sorting, so the latest file is automatically presented on top and everything else falls in chronological order.
 
 If you choose single file and then add subsequent publications, you will have to order them manually. *You should not select single file for datasets that will have new files across time*.
+
+[Monthly datasets problem](monthly_datasets_problem.html)
 
 ### 'Check' button
 
