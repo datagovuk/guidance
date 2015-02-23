@@ -309,7 +309,7 @@ Full-Width Styles
   text-decoration: none;
 }
 
-#project_title a:visited {
+#project_title a {
   color: #fff;
 }
 
