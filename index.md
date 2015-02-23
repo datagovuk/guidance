@@ -2,6 +2,13 @@
 layout: "default"
 ---
 
+## For users
+
+* Search (TBC)
+
+* [API](api.html)
+
+
 ## For publishers (editor / admin roles)
 
 * [Publishing data on data.gov.uk](publishing_on_data_gov_uk_overview.html) (overview)
@@ -18,13 +25,13 @@ layout: "default"
 
     * [UK Location Metadata Editor guide (PDF)](http://data.gov.uk/sites/default/files/library/Metadata%20Editor%20User%20Guide.pdf)
 
-  * Deleting datasets (TBA)
+  * Deleting datasets (TBC)
 
 * (legacy) [User Guide (PDF)](http://data.gov.uk/sites/default/files/library/User%20guide.pdf)
 
 
 ## For data.gov.uk team (RM / sysadmin roles)
 
-* (TBA)
+* (TBC)
 
 
