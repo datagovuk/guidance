@@ -63,3 +63,6 @@ You should be emailed by this organization when you have been made an editor. If
 Once you are an editor or admin you will see the blue spanner icon when logged in, and can now [publish data](publishing_on_data_gov_uk_overview.html).
 ![editor spanner](images/become_editor_spanner.png)
 
+# Become an Admin
+
+Follow the same [instructions as for editor](#become-an-editor) but be sure to mention in your request that you would like be the Admin and take responsibility for approving other users for your publisher (and any sub publishers).
