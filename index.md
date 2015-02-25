@@ -4,7 +4,9 @@ layout: "default"
 
 ## For users
 
-* Search (TBC)
+* [Finding Data](finding_data.html)
+
+* [FAQ](faq.html)
 
 * [API](api.html)
 
