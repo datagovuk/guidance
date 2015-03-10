@@ -27,7 +27,11 @@ layout: "default"
 
     * [UK Location Metadata Editor guide (PDF)](http://data.gov.uk/sites/default/files/library/Metadata%20Editor%20User%20Guide.pdf)
 
+  * [Unpublished datasets](unpublished.html)
+
   * [Deleting datasets](deleting_datasets.html)
+
+  * [Themes](theme.html)
 
 * (legacy) [User Guide (PDF)](http://data.gov.uk/sites/default/files/library/User%20guide.pdf)
 
