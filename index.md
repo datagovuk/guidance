@@ -35,9 +35,12 @@ layout: "default"
 
 * (legacy) [User Guide (PDF)](http://data.gov.uk/sites/default/files/library/User%20guide.pdf)
 
+## For Admins
+
+* [Assigning Editors and Admins](assigning_editors_and_admins.html)
 
 ## For data.gov.uk team (RM / sysadmin roles)
 
-* (TBC)
+* [Assigning Editors and Admins](assigning_editors_and_admins.html)
 
 
