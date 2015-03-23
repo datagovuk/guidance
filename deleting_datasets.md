@@ -26,6 +26,7 @@ The only valid circumstances for deletion are:
 
 Because the deletion policy is complex, we require all deletions to be done by sysadmins - this means the core data.gov.uk team only.
 
+However there is an exception for Location/INSPIRE datasets - publishers can 'withdraw' their own datasets (marked with the INSPIRE logo), which is the same as deleting. To do this, log-in as an admin for your publisher, go to the dataset page and in the blue box there is the link to 'Withdraw'. To reinstate the record, update the record (including its timestamp) on your server and reharvest it.
 
 ## Requesting deletions
 
