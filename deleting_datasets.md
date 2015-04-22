@@ -39,6 +39,4 @@ To request datasets are deleted, use the [contact form](http://data.gov.uk/conta
 
 ## It didn't get deleted!
 
-When a dataset is deleted by a data.gov.uk sys-admin, you may have to wait up to an hour for it to disappear completely. Like many sites, data.gov.uk caches all its content, so most people viewing data.gov.uk won't see changes for up to an hour.
-
-You can check the real status of a record (ignoring the cached copy) by logging in. Logged-in users see the latest version of data.gov.uk. Non-logged-in users see the site as it was up to an hour behind.
+When a dataset is deleted by a data.gov.uk sys-admin, you may have to wait up to an hour for it to disappear completely. There are more details here: [Updating problem](updating_problem.html)
