@@ -21,6 +21,8 @@ layout: "default"
 
     * [Monthly datasets problem](monthly_datasets_problem.html)
 
+    * [Updating problem](updating_problem.html)
+
   * [Harvesting (non-Location) datasets](harvesting_non_location.html)
 
   * [INSPIRE](inspire.html) (overview)
