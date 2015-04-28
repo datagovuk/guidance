@@ -35,6 +35,8 @@ layout: "default"
 
   * [Themes](theme.html)
 
+  * [Five Stars of Openness](five_stars_of_openness.html)
+
 * (legacy) [User Guide (PDF)](http://data.gov.uk/sites/default/files/library/User%20guide.pdf)
 
 ## For Admins

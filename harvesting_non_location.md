@@ -145,13 +145,9 @@ Not all of the publishing sources or harvesters cover all the fields, so for exa
 
 ![five stars of openness](images/five_stars.png)
 
-The 'Openness rating' is automatically calculated for a dataset shortly after harvest. It checks if the licence is open, if the resource links work ok and if the resource formats are open and linked. The resulting score is between 0 and 5 stars. If you hover the mouse pointer over the stars then an explanation of the scoring is provided. The overall score is the highest of all the resources, so if you have 3 PDFs (score 1) and a CSV (score 3), then the overall score is 3. There is more about the scheme at: <http://5stardata.info/>
+Datasets on data.gov.uk are automatically given an 'Openness rating' that gives a simple indication of how well the dataset has been made open. For more about this system, see [Five Stars of Openness](five_stars_of_openness.html).
 
-Often this is a useful driver to improve the data or the metadata. For example releasing data as CSV instead of Excel files gets you to 3 stars instead of 2 (although it is good to provide both if you have them).
-
-Also often this indicates problems with the dataset record - maybe the URL to the data was mistyped, or only goes to a web page about the data. Or maybe the harvester has not transferred the details accurately from your site - contact us in that instance. These are easily fixed and then you reharvest.
-
-Occasionally the automatic calculation is wrong - it misidentified the format of your file. Do contact us and we can try and improve it.
+A low star rating can indicate problems with the dataset record - maybe the URL to the data was mistyped, or only goes to a web page about the data. Or maybe the harvester has not transferred the details accurately from your site - [contact us](http://data.gov.uk/contact) in that instance. These are easily fixed and then you reharvest.
 
 ## Theme
 ![theme](images/theme.png)
@@ -166,9 +162,9 @@ It is not unusual to see errors on the first harvest. Often it is simple to put 
 
 * **Failed to parse or validate the XML document** There is something wrong with the structure of the published Inventory content. Check that the URL is actually an Inventory XML file. Check it validates against the Inventory schema. Check the version of the schema is the same as the one data.gov.uk uses, which is given on the harvester edit page.
 
-* **System error** / **Validation Error** Something has unexpectedly gone wrong internally data.gov.uk. Please contact the team to fix the problem.
+* **System error** / **Validation Error** Something has unexpectedly gone wrong internally data.gov.uk. Please [contact](http://data.gov.uk/contact) the team to fix the problem.
 
-Hopefully the detail of the error messages and these hints provide enough information to solve the issues. If something is still not clear, or data.gov.uk is not working as it should, please contact us.
+Hopefully the detail of the error messages and these hints provide enough information to solve the issues. If something is still not clear, or data.gov.uk is not working as it should, please [contact us](http://data.gov.uk/contact).
 
 # Local Authority data schemas
 
