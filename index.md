@@ -23,7 +23,7 @@ layout: "default"
 
     * [Updating problem](updating_problem.html)
 
-  * [Harvesting (non-Location) datasets](harvesting_non_location.html)
+  * [Harvesting datasets](harvesting.html)
 
   * [INSPIRE](inspire.html) (overview)
 
