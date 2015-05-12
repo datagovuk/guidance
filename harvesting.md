@@ -22,6 +22,8 @@ Each dataset should be described in a "metadata record", giving details about th
 * in a machine-readable format that data.gov.uk recognizes - see section "Supported Formats"
 * in a suitable place on the public Internet - probably the body's website or data portal
 
+It is essential to understand if your data falls under the INSPIRE regulation - check with the [INSPIRE scope](inspire.html#inspire-scope). INSPIRE datasets must be published in GEMINI format. You can also publish other geo-spatial/location data in the GEMINI format. But you must not use GEMINI for data that has no location element.
+
 ## Supported Formats
 
 | Harvester | Suitability | INSPIRE/Location | Example Harvest URL |
@@ -87,7 +89,7 @@ The schema is here: <http://schemas.opendata.esd.org.uk/Inventory>
 
 ### CSW Server (GEMINI)
 
-CSW, or [Catalog Service for the Web](https://en.wikipedia.org/wiki/Catalog_Service_for_the_Web), is an open standard by the OGC, for exposing geo-spatial metadata on the web. It is full of features and complexity, so is most suitable for GIS systems like GeoNetwork or ArcGIS.
+CSW, or [Catalog Service for the Web](https://en.wikipedia.org/wiki/Catalog_Service_for_the_Web), is an open standard by the OGC, for exposing geo-spatial metadata on the web. It is full of features and complexity, so is most suitable for GIS systems like [GeoNetwork](http://geonetwork-opensource.org/) or ArcGIS.
 
 Note: whilst in you can publish non-spatial data with CSW, data.gov.uk currently only accepts GEMINI2 metadata which does not support non-spatial data.
 
