@@ -41,7 +41,7 @@ It is essential to understand if your data falls under the INSPIRE regulation - 
 
 DCAT has the major advantage that it was designed in an open process by practitioners from around the world of data publishing and has become a W3C recommendation. It has been selected by the EU for the harvesting and republication of data from the 28 EU national data portals including data.gov.uk – the EU-wide portal is in beta and will launch in Autumn 2015. DCAT is also supported by the majority of data portals around the world, including the national government portals in US, Canada, Australia and the large numbers of others that use CKAN and other software.
 
-DCAT is a 'vocabulary' in the RDF Linked Data world, and it is normal to use fields/predicates from other vocabularies where appropriate. Whilst this adds expressiveness, data.gov.uk cannot read every eventuality, so this document publishes the fields/predicates that data.gov.uk expects in [Harvesting Guide Appendix A - DCAT/data.json fields (PDF)](http://data.gov.uk/sites/default/files/library/Harvesting%20guide.pdf).
+DCAT is a 'vocabulary' in the RDF Linked Data world, and it is normal to use fields/predicates from other vocabularies where appropriate. Whilst this adds expressiveness, data.gov.uk cannot read every eventuality, so this document publishes the fields/predicates that data.gov.uk expects in: [DCAT/data.json fields](dcat_fields.html)
 
 DCAT can be seen as somewhat verbose. Whilst it is ideal for linked data systems, it is often preferable to use a simplified version called data.json. The data.json format has the fields we need from DCAT, but removes the namespace prefixes and uses the well-known JSON syntax. This has the benefits of DCAT but is generally much more easily produced – see the section on data.json.
 
@@ -53,7 +53,7 @@ The DCAT harvester needs to be given the URL that returns the RDF for all the da
 
 The data.json format was designed as having the same fields as DCAT, but expressed more simply. It is used extensively for harvesting the American public bodies into data.gov and is gaining popularity elsewhere.
 
-The fields are documented in [Harvesting Guide Appendix A (PDF)](http://data.gov.uk/sites/default/files/library/Harvesting%20guide.pdf).
+The fields are documented in [DCAT/data.json fields](dcat_fields.html).
 
 The US government provide various tools <http://project-open-data.github.io/> and full details of their implementation (it is similar to the UK definitions): <http://project-open-data.github.io/v1.1/metadata-resources/>
 
