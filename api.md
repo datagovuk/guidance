@@ -21,7 +21,30 @@ Details of a dataset: <http://data.gov.uk/api/action/package_show?id=cabinet-off
 
  * "resources" are the Data files/resources and Additional Links.
 
-Searching datasets: <http://data.gov.uk/api/action/package_search?q=fish>
+### Searching
+
+The parameters to package_search are passed through to SOLR, so consult the SOLR docs for more info.
+
+**Free text** - the `q` parameter works like the [data.gov.uk search box](http://data.gov.uk/data/search) and looks for the specified works in title, description etc.. By default, the best matches are returned first. It uses stemming, so 'fish' also returns results containing 'fishes', 'fishing' etc.
+
+e.g. <http://data.gov.uk/api/action/package_search?q=fish>
+
+**By field** - use the `fq` parameter to filter on particular fields. Returns exact matches. It uses roughly the same syntax as in the URL of the web search.
+
+* Publisher: <http://data.gov.uk/api/action/package_search?fq=publisher:peterborough-city-council>
+* Licence: <http://data.gov.uk/api/action/package_search?fq=license_id:uk-ogl> (Although that doesn't include those that mention OGL in the free text 'licence' 'extra' field.)
+* UKLP/INSPIRE records: <http://data.gov.uk/api/action/package_search?fq=UKLP:True>
+* UKLP unique identifier: <http://data.gov.uk/api/action/package_search?fq=guid:d9d114da-9fb8-4e02-bfde-3ffaba37e917>
+* Date modified <http://data.gov.uk/api/action/package_search?fq=metadata_modified:[2014-08-29T00:00:00Z TO 2014-08-30T00:00:00Z]> (i.e. modification of the data.gov.uk record)
+* Date created <http://data.gov.uk/api/action/package_search?fq=metadata_created:[2014-08-29T00:00:00Z TO *]> (i.e. creation of the data.gov.uk record)
+* By resource URL <http://data.gov.uk/api/action/package_search?fq=res_url:"http://opendatacommunities.org/data/postcodes/dump">
+
+You can also invert the search by prepending `!` to the key. e.g. records with the word 'toilet' which are not UKLP records: <http://data.gov.uk/api/action/package_search?q=toilet&fq=!UKLP:True>
+
+**NB** Remember to escape these URLs. Most browsers will escape these automatically when you click on these example links, but python clients etc. will mostly need them URL encoded (spaces to `%20` etc). And on the command-line remember to quote the whole URL e.g. use single quotes:
+
+    curl 'http://data.gov.uk/api/action/package_search?fq=res_url:"http://opendatacommunities.org/data/postcodes/dump"'
+
 
 ## Organization hierarchy
 
