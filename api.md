@@ -32,6 +32,7 @@ e.g. <http://data.gov.uk/api/action/package_search?q=fish>
 **By field** - use the `fq` parameter to filter on particular fields. Returns exact matches. It uses roughly the same syntax as in the URL of the web search.
 
 * Publisher: <http://data.gov.uk/api/action/package_search?fq=publisher:peterborough-city-council>
+* Top-level publisher: <http://data.gov.uk/api/action/package_search?fq=parent_publishers:local-authorities>
 * Licence: <http://data.gov.uk/api/action/package_search?fq=license_id:uk-ogl> (Although that doesn't include those that mention OGL in the free text 'licence' 'extra' field.)
 * UKLP/INSPIRE records: <http://data.gov.uk/api/action/package_search?fq=UKLP:True>
 * UKLP unique identifier: <http://data.gov.uk/api/action/package_search?fq=guid:d9d114da-9fb8-4e02-bfde-3ffaba37e917>

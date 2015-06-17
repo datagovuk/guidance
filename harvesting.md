@@ -228,6 +228,8 @@ It is not unusual to see errors on the first harvest. Often it is simple to put 
 
 * **Couldn't find any links to metadata files.** Check the harvest URL returns a web page with links to the metadata. Then check there source of the web page - it is likely the problem is that the links' href fields contains slash characters `/` and they must not. This is explained above in the section above about WAFs.
 
+* **This element is not expected** In a GEMINI document, the XML elements must come in a particular order, and your document might have this wrong. Other explanations for this error include adding elements that are not recognized. If they are produced by a GIS server, check that they follow the GEMINI 2.1 schema, rather than vanilla ISO19139 or other similar format. Otherwise, check your fields and ordering against those in the [GEMINI Encoding Guidance](http://data.gov.uk/library/uk-gemini-encoding-guidance) - Appendix A.
+
 Other common Location/GEMINI specific errors are covered in the [Common Metadata Errors Guide (PDF)](http://data.gov.uk/library/common-metadata-errors-guide).
 
 Hopefully the detail of the error messages and these hints provide enough information to solve the issues. If something is still not clear, or data.gov.uk is not working as it should, please [contact us](http://data.gov.uk/contact).
