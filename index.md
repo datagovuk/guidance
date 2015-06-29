@@ -43,8 +43,14 @@ layout: "default"
 
 * [Assigning Editors and Admins](assigning_editors_and_admins.html)
 
+* [Publisher editing](publisher_editing.html)
+
 ## For data.gov.uk team (RM / sysadmin roles)
 
 * [Assigning Editors and Admins](assigning_editors_and_admins.html)
 
 * [Sysadmins](sysadmins.html)
+
+* [Publisher creation](publisher_creation.html)
+
+* [Publisher editing](publisher_editing.html)
