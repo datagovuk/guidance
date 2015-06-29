@@ -36,7 +36,7 @@ Local Authorities should ensure they add an ESD service or function URI as the d
 | accessURL | dcat:accessURL | `http://www.site.gov.uk/api/sparql` <br> `http://site.gov.uk/river-level-data.html` | If there is not a downloadURL, specify the accessURL, which is the URL of an API or web page about the data |
 | title | dct:title | Spend transactions, Dec 2012 |
 | description | dct:description | | Not currently displayed on DGU |
-| format | dcat:mediaType | `text/csv` ||
+| format | dcat:mediaType | `text/csv` | Currently recognized mime-types are listed here: [DGU formats](https://github.com/datagovuk/ckanext-dgu/blob/master/ckanext/dgu/lib/formats.py#L86) |
 | conformsTo | dct:conformsTo | `http://schemas.opendata.esd.org.uk/publictoilets/PublicToilets.json?v=0.41` | URL of the machine-readable schema that the data conforms to. See: [Harvesting Guide - Appendix E - Local Authority data schemas (PDF)](http://data.gov.uk/sites/default/files/library/Harvesting%20guide.pdf). |
 | temporal | dct:temporal | 2000-01-15/2010-01-15 | The date period that the data applies to. Formatted as two ISO 8601 dates (or datetimes) separated by a slash. |
 | spatial |  dct:spatial | `{\"type\":\"Polygon\",\"coordinates\":[[[2.072, 49.943],[2.072, 55.816], [-6.236, 55.816], [-6.236, 49.943], [2.072, 49.943]]]}` | The geographic location that the data applies to. If not specified, then it is inherited from the dataset if not its publisher. Formatted as a GeoJSON point, bounding box or polygon. |
