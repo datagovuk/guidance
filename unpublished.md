@@ -31,7 +31,7 @@ The suggested steps for reviewing and adding datasets are:
 2. Download the inventory template 
 3. Upload the completed inventory template
 
-### Editing
+### Editing - via form
 
 Once an unpublished dataset is listed on data.gov.uk, it can be changed by the publisher's editor or admin, in the same way as any dataset published using the form: on the dataset page click 'Edit':
 
@@ -39,6 +39,12 @@ Once an unpublished dataset is listed on data.gov.uk, it can be changed by the p
 
 and the edit form opens:
 ![Unpublished datasets edit](images/unpublished_edit.png)
+
+### Editing - via re-uploading a spreadsheet
+
+You can also change the unpublished dataset records on data.gov.uk by editing your existing spreadsheet of them and uploading it to data.gov.uk again. Assuming the titles of the datasets have not changed since the previous upload, the datasets on data.gov.uk will be edited with the changes in the spreadsheet. Any rows with a title which does not match will result in a new unpublished dataset being created.
+
+If you delete rows from the spreadsheet and re-upload it, there will be no change to the equivalent dataset on data.gov.uk. To delete unpublished datasets, see below.
 
 ### Converting to published
 
@@ -53,3 +59,14 @@ This will open the edit form for you to add the detail about the dataset - in pa
 ![Unpublished datasets conversion](images/unpublished_convert.png)
 
 NB There are other circumstances when a straight conversion to a published record is not suitable. For example you might want to harvest the newly published record, rather than create it in a form, or there is not a 1:1 mapping of unpublished datasets to published datasets. In this case, we suggest you simply create the published datasets and then [contact data.gov.uk](http://data.gov.uk/contact) to provide links to the unpublished and published datasets, pointing out the duplication and request the unpublished ones are deleted.
+
+### Deleting
+
+We anticipate a number of reasons why an unpublished dataset needs to be deleted, such as:
+
+* The data has now been published and has been added to data.gov.uk in another way that using the 'convert to published' button.
+* The unpublished dataset record on data.gov.uk is a duplicate of another (or is included in another).
+* The unpublished dataset record was added to data.gov.uk by mistake - there was never any data.
+* The data has been destroyed by the department.
+
+The Data.gov.uk Team are happy to delete them for these reasons - please [contact us](http://data.gov.uk/contact) providing links to each unpublished dataset and the specific reason for deletion.
