@@ -21,15 +21,7 @@ A sysadmin can create a new 'publisher' on data.gov.uk at: http://data.gov.uk/pu
 
 ## Editing a publisher
 
- A publisher's admins (and parent publishers' admins) and sysadmins can edit the publisher's properties by finding its publisher page and clicking 'Edit':
-
-![publisher edit link](images/publisher_edit_link.png)
-
-The publisher form can be edited:
-
-![publisher edit form](images/publisher_edit.png)
-
-Once changes are complete, click "Save Changes".
+Please see the separate page: [Publisher editing](publisher_editing.html)
 
 ## Publisher renames
 
