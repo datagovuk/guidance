@@ -19,7 +19,9 @@ This page describes the technical detail of data.gov.uk's support of DCAT and da
 | issued | dct:issued | `2012-05-10T21:04` | Date of formal issuance. |
 | modified | dct:modified | `2012-05-10T21:04` ||
 | publisher | dct:publisher | data.json: <br> `"publisher": {"name": "Geological Society", "mbox": "info@gs.org"}` <br> DCAT: <br> `<dct:publisher>`<br>`    <foaf:Organization>`<br>`        <foaf:name>Geological Society</foaf:name>`<br>`        <foaf:mbox>info@gs.org </foaf:mbox>`<br>`    </foaf:Organization>`<br>`</dct:publisher>`||
-| distribution | dcat:distribution || see "Distribution" table below|
+| distribution | dcat:distribution || A location for accessing/obtaining the data. See "Distribution" table below |
+| landingPage | dcat:landingPage | `https://www.gov.uk/government/statistical-data-sets/oil-and-petroleum-products-weekly-statistics` | URL of a web page specifically about this dataset and probably has direct links to its resources and further information. |
+| references | foaf:Document | `http://data.dft.gov.uk/road-accidents-safety-data/Brief-guide-to%20road-accidents-and-safety-data.doc` | URL of a web page, PDF or other documentation that goves more information about the dataset. (Although use landingPage instead for a URL if that is more appropriate.) Can be multiple URLs. |
 | language | dct:language | `en` or `http://id.loc.gov/vocabulary/iso639-1/en` | Language of the data |
 | frequency | dct:accrualPeriodicity | `R/P1Y` (=annual) <br> `R/P1W` (=weekly) | The frequency at which dataset is published. Format: ISO 8601 Repeating Duration (or `irregular`) See: <https://project-open-data.cio.gov/iso8601_guidance/#accrualperiodicity> |
 | temporal | dct:temporal | `2000-01-15/2010-01-15` | The date period that the data applies to. Formatted as two ISO 8601 dates (or datetimes) separated by a slash. |
@@ -30,10 +32,12 @@ Local Authorities should ensure they add an ESD service or function URI as the d
 
 ## Distribution
 
+These are for **data** not documentation.
+
 | data.json field | DCAT predicate | Example value | Comments |
 | --------------- | -------------- | ------------- | -------- |
-| downloadURL | dcat:downloadURL | `http://site.gov.uk/river-levels/dec2012.csv` | The direct URL that downloads a file |
-| accessURL | dcat:accessURL | `http://www.site.gov.uk/api/sparql` <br> `http://site.gov.uk/river-level-data.html` | If there is not a downloadURL, specify the accessURL, which is the URL of an API or web page about the data |
+| downloadURL | dcat:downloadURL | `http://site.gov.uk/river-levels/dec2012.csv` | The direct URL that downloads a file with the data |
+| accessURL | dcat:accessURL | `http://www.site.gov.uk/api/sparql` <br> `http://site.gov.uk/river-level-data.html` | If there is not a downloadURL, specify the accessURL, which is the URL of an API or other non-downloadable data (NB documentation or other web pages should not be distributions) |
 | title | dct:title | Spend transactions, Dec 2012 |
 | description | dct:description | | Not currently displayed on DGU |
 | format | dcat:mediaType | `text/csv` | Currently recognized mime-types are listed here: [DGU formats](https://github.com/datagovuk/ckanext-dgu/blob/master/ckanext/dgu/lib/formats.py#L86) |
