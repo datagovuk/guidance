@@ -183,6 +183,14 @@ The harvester has added: "Harvest URL", "Harvest date" and "Harvest GUID". The G
 
 Not all of the publishing sources or harvesters cover all the fields, so for example Temporal Coverage operates differently in the Inventory format, and the DCAT harvester doesn't include it yet. We hope to fill in these gaps in time.
 
+## Format field
+
+The 'format' (e.g. CSV or WMS) of a data resource can be specified easily in most harvesters, but it is tricky for Location/INSPIRE records.
+
+There is a fundamental problem with the GEMINI2/ISO19139 format used by Location/INSPIRE records, in that although it stores a list of data URLs (resource locators - gmd:transferOptions) and a list of formats that the data is available in (gmd:distributionFormat), there is no connection between these two lists. So you can't say which resource locator returns a particular format. So to get round this problem, we allow you to record the resource locator's format, by using a carefully formed 'name' field.
+
+However data.gov.uk does need to know which URL is for a WMS server, so that it can offer previews. So on harvest (of GEMINI2 documents), data.gov.uk will make a call to each URL as if it was a WMS server, and if it appears to respond correctly, it will record the format as WMS. Failing that, the format will be left blank.
+
 ## Location/INSPIRE differences
 
 Records for Location/INSPIRE (i.e. from GEMINI2 metadata) are identified by the UK Location logo:
