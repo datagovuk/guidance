@@ -27,6 +27,8 @@ layout: "default"
 
     * [DCAT/data.json fields](dcat_fields.html)
 
+    * [CKAN fields](ckan_fields.html)
+
   * [INSPIRE](inspire.html) (overview)
 
     * [UK Location Metadata Editor guide (PDF)](http://data.gov.uk/sites/default/files/library/Metadata%20Editor%20User%20Guide.pdf)

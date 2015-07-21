@@ -65,7 +65,7 @@ The CKAN software is the most popular data portal software, powering the largest
 
 Although most of the fields are core to all CKAN sites, it is common to customize fields. data.gov.uk has some customizations, so some translation of records occurs during harvest, and optionally extra metadata fields can be supplied that data.gov.uk will display.
 
-The fields are documented in [Harvesting Guide Appendix B (PDF)](http://data.gov.uk/sites/default/files/library/Harvesting%20guide.pdf).
+The fields are documented in [CKAN fields](ckan_fields.html).
 
 The CKAN harvester needs the URL of the CKAN home page, from where it can find its API functions.
 
@@ -73,7 +73,7 @@ The CKAN harvester needs the URL of the CKAN home page, from where it can find i
 
 DKAN is developed by a US-based consultancy and gives basic CKAN functionality. Although it aims for compatibility with CKAN APIs, as it stands (October 2014) the normal APIs for harvesting are not there, and some fields are expressed differently, so you'll need to use this custom DKAN harvester.
 
-Follow the CKAN field guidance.
+Follow the CKAN field guidance: [CKAN fields](ckan_fields.html)
 
 The DKAN harvester needs to be given the URL of the DKAN home page, from where it can find its API functions.
 
