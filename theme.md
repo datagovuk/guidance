@@ -11,7 +11,7 @@ Datasets are categorized against a small number of 'themes', which helps users u
 
 ## Automatic categorization
 
-The theme of a dataset is automatically either with the button on the dataset form or when it is harvested.
+The theme of a dataset is automatically either with the button on the dataset form or when it is harvested. (Unpublished datasets are handled slightly differently - see the section on them below.)
 
 The categorization route looks at the title, description and tags of the dataset and scans them for known keywords associated with each theme. The keywords are stemmed, to ensure that variations (such as 'crime', 'crimes', 'criminal', 'criminality') are also detected.
 
@@ -30,3 +30,7 @@ Some datasets are already categorized according to another system and a mapping 
 Local Authority datasets that have their service (`la_service`) or function (`la_function`) fields filled in (according to the [esd vocabularies](http://standards.esd.org.uk/?)) will have their theme decided on those.
 
 Location/INSPIRE datasets should have one of the [34 INSPIRE themes](http://inspire.ec.europa.eu/index.cfm/pageid/2/list/7) in the GEMINI2 metadata (`gmd:descriptiveKeywords`) and this will map directly to a data.gov.uk theme.
+
+## Unpublished datasets
+
+For the time-being, unpublished datasets can still have their theme selected manually.
