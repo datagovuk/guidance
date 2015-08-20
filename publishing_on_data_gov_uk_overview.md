@@ -3,6 +3,8 @@ title: Publishing on data.gov.uk - overview
 layout: "default"
 ---
 
+NB You can't upload _data_ to data.gov.uk. The data (e.g. spreadsheet file) should be published on your own website and then you add to data.gov.uk a 'dataset' (record) containing information about the data, including the link to it (e.g. download URL).
+
 There are two main methods for adding datasets to data.gov.uk:
 
 1. Using the web form. It is a simple & manual process. However it is not suitable for INSPIRE/Location datasets. More:
