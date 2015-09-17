@@ -5,15 +5,15 @@ layout: "default"
 
 ## What is the problem?
 
-Many publishers are incorrectly creating a new 'dataset' in data.gov.uk for every monthly update of some data. It is particularly common for the £25k spend data. You can see it floods the search page:
+Many publishers are creating a new 'dataset' in data.gov.uk for every monthly update of some data, which is now considered bad practice. It is particularly common for the £25k spend data. You can see it floods the search page:
 ![monthly datasets search - problem](images/monthly_datasets_search_problem.png)
 
 ## How can it be done better?
 
-Create just one 'dataset', and all the months of data are linked form within it. You can see other datasets clearly in the [search results](http://data.gov.uk/data/search?q=cabinet+office+spend):
+Create just one 'dataset', and all the months of data are linked form within it. You can see other datasets clearly in the [search results](https://data.gov.uk/data/search?q=cabinet+office+spend):
 ![monthly datasets search - ok](images/monthly_datasets_search_ok.png)
 
-And all the links are handily together on the [dataset page](http://data.gov.uk/dataset/financial-transactions-data-co):
+And all the links are handily together on the [dataset page](https://data.gov.uk/dataset/financial-transactions-data-co):
 ![monthly dataset](images/monthly_datasets_dataset.png)
 In addition, it tidies away previous years' data to make the page manageable. Many users will still want access to the historical data and they can reveal it by clicking on the year.
 
@@ -43,10 +43,12 @@ When a new month's data comes out you simple [Edit the dataset](dataset_form.htm
 
 ## What about converting lots of datasets?
 
-To convert a number of datasets that are just different months of the same dataset:
+NB As of September 2015, the data.gov.uk team has developed a semi-automatic tool to merge datasets together into a time series. They will aim to use it on spend data and inform publishers. You can also ask for particular datasets to be merged - to do this [contact](https://data.gov.uk/contact) us with the URLs of the datasets to merge.
+
+Alternatively, to manually merge datasets:
 
 1. Create a new dataset that will be the timeseries (don't try and convert an existing dataset because that will have a month/year embedded in its URL).
 
 2. In a separate browser tab or window, find the monthly data URLs and copy and paste them into the new datasets form.
 
-3. Ask the data.gov.uk team to delete the old datasets. Use the [data.gov.uk Contact](http://data.gov.uk/contact) form. Explain that you've aggregated several datasets into a new timeseries one, providing the link to it, and that you want the old ones deleted.
+3. Ask the data.gov.uk team to delete the old datasets. Use the [data.gov.uk Contact](https://data.gov.uk/contact) form. Explain that you've aggregated several datasets into a new timeseries one, providing the link to it, and that you want the old ones deleted.
