@@ -5,7 +5,9 @@ layout: "default"
 
 ### If I make a mistake, can I delete a dataset?
 
-You can always go back and edit a dataset but you cannot delete it.  If there is a need to delete a dataset you need to contact your administrator or the Data.gov.uk team (from the contact us link in the site)
+You can always go back and edit a dataset but you cannot delete it.  If there is a need to delete a dataset you need to contact the Data.gov.uk team (from the contact us link in the site)
+
+For more information see: [deleting datasets](deleting_datasets.html)
 
 ### Should I delete previous versions of a data file when a new version becomes available?
 

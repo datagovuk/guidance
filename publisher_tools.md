@@ -9,11 +9,11 @@ layout: "default"
 This section assumes you are logged into data.gov.uk
 ```
 
-### The lock icon - your publishers
+### The spanner icon - your publishers
 
 <img src="images/spanner-menu.png" style="float: right; width: 200px;">
 
-1. The ‘lock’ icon allows you to see and go to any of the publishers you have rights for
+1. The ‘spanner’ icon allows you to see and go to any of the publishers you have rights for
 2. The ‘user’ icon allows you to see your profile or log out
 3. You can add a dataset directly from the menu or go to the harvesting page
 
