@@ -91,9 +91,9 @@ The schema is here: <http://schemas.opendata.esd.org.uk/Inventory>
 
 CSW, or [Catalog Service for the Web](https://en.wikipedia.org/wiki/Catalog_Service_for_the_Web), is an open standard by the OGC, for exposing geo-spatial metadata on the web. It is full of features and complexity, so is most suitable for GIS systems like [GeoNetwork](http://geonetwork-opensource.org/) or ArcGIS.
 
-Note: whilst in you can publish non-spatial data with CSW, data.gov.uk currently only accepts GEMINI2 metadata which does not support non-spatial data.
+Note: whilst in you can publish non-spatial data with CSW, data.gov.uk currently only accepts GEMINI metadata which does not support non-spatial data.
 
-ISO19139/ISO19119 metadata and GEMINI2 are similar, but it is suggested you validate using the GEMINI2 schematron in your GIS before publishing to data.gov.uk, to spot any issues earlier in the chain.
+CSW allows documents in several XML-based formats, but data.gov.uk requires it is in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](gemini_iso.html).
 
 CSW version 2.0.2 is the version required for INSPIRE & data.gov.uk.
 
@@ -101,7 +101,7 @@ There is more about CSW in the [Discovery Metadata Service Collection Informatio
 
 ### Web Accessible Folder (WAF) (GEMINI)
 
-A WAF is simply a web page with links to GEMINI2 XML files. This means it is simple to implement such as placing your XML files in a folder on your server and tell Apache to server it with a directory listing.
+A WAF is simply a web page with links to GEMINI/ISO19139 XML files. This means it is simple to implement such as placing your XML files in a folder on your server and tell Apache to server it with a directory listing.
 
 There is an important caveat though - the HTML must not have a path specified in it - the XML files must therefore be at the same path (folder) as the HTML page. (This allows you to have other links on the web page, such as to your home page, which are ignored by the harvester.) When you look at the source of the WAF web page, it might be like this:
 
@@ -123,10 +123,13 @@ Ensure the links do **not** have a path (i.e. have slashes) like this:
 
 There is more about the WAF specification in the [Discovery Metadata Service Collection Information Specification (PDF)](http://data.gov.uk/library/discovery-metadata-service-collection-interface-specification)
 
+data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](gemini_iso.html).
+
 ### Single File (GEMINI)
 
-If you only have one dataset record to publish, or just want to test a record without putting it in a CSW or WAF, you can point the harvester directly at the URL that returns the GEMINI2 record (XML file).
+If you only have one dataset record to publish, or just want to test a record without putting it in a CSW or WAF, you can point the harvester directly at the URL that returns the GEMINI/ISO19139 record (XML file).
 
+data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](gemini_iso.html).
 
 # How to Harvest
 
@@ -187,13 +190,13 @@ Not all of the publishing sources or harvesters cover all the fields, so for exa
 
 The 'format' (e.g. CSV or WMS) of a data resource can be specified easily in most harvesters, but it is tricky for Location/INSPIRE records.
 
-There is a fundamental problem with the GEMINI2/ISO19139 format used by Location/INSPIRE records, in that although it stores a list of data URLs (resource locators - gmd:transferOptions) and a list of formats that the data is available in (gmd:distributionFormat), there is no connection between these two lists. So you can't say which resource locator returns a particular format. So to get round this problem, we allow you to record the resource locator's format, by using a carefully formed 'name' field.
+There is a fundamental problem with the GEMINI/ISO19139 format used by Location/INSPIRE records, in that although it stores a list of data URLs (resource locators - gmd:transferOptions) and a list of formats that the data is available in (gmd:distributionFormat), there is no connection between these two lists. So you can't say which resource locator returns a particular format. So to get round this problem, we allow you to record the resource locator's format, by using a carefully formed 'name' field.
 
-However data.gov.uk does need to know which URL is for a WMS server, so that it can offer previews. So on harvest (of GEMINI2 documents), data.gov.uk will make a call to each URL as if it was a WMS server, and if it appears to respond correctly, it will record the format as WMS. Failing that, the format will be left blank.
+However data.gov.uk does need to know which URL is for a WMS server, so that it can offer previews. So on harvest (of GEMINI documents), data.gov.uk will make a call to each URL as if it was a WMS server, and if it appears to respond correctly, it will record the format as WMS. Failing that, the format will be left blank.
 
 ## Location/INSPIRE differences
 
-Records for Location/INSPIRE (i.e. from GEMINI2 metadata) are identified by the UK Location logo:
+Records for Location/INSPIRE (i.e. from GEMINI metadata) are identified by the UK Location logo:
 
 ![harvested dataset - UK Location logo](images/harvest_dataset_ukl_logo.png)
 
@@ -201,7 +204,7 @@ All Location/INSPIRE records have a map with a box showing the spatial extent.
 
 ![harvested dataset - spatial extent](images/harvest_dataset_spatial_extent.png)
 
-The GEMINI2 record (and an HTML version) are provided:
+The GEMINI record (and an HTML version) are provided:
 
 ![harvested dataset - GEMINI record links](images/harvest_dataset_gemini_links.png)
 
@@ -232,11 +235,11 @@ It is not unusual to see errors on the first harvest. Often it is simple to put 
 
 * **System error** / **Validation Error** Something has unexpectedly gone wrong internally data.gov.uk. Please [contact](http://data.gov.uk/contact) the team to fix the problem.
 
-* **The contents of document with GUID xyz changed, but the metadata date has not been updated.** There is a rule that a GEMINI2 record must have its date (gmd:dateStamp) updated with any change to the rest of the record. This allows the record to be distributed to many different systems, and when harvested to data.gov.uk it can tell which is the most up-to-date version. This error can also be seen where the record's GUID/gmd:fileIdentifier has incorrectly been copied to another record.
+* **The contents of document with GUID xyz changed, but the metadata date has not been updated.** There is a rule that a GEMINI record must have its date (gmd:dateStamp) updated with any change to the rest of the record. This allows the record to be distributed to many different systems, and when harvested to data.gov.uk it can tell which is the most up-to-date version. This error can also be seen where the record's GUID/gmd:fileIdentifier has incorrectly been copied to another record.
 
 * **Couldn't find any links to metadata files.** Check the harvest URL returns a web page with links to the metadata. Then check there source of the web page - it is likely the problem is that the links' href fields contains slash characters `/` and they must not. This is explained above in the section above about WAFs.
 
-* **This element is not expected** In a GEMINI document, the XML elements must come in a particular order, and your document might have this wrong. Other explanations for this error include adding elements that are not recognized. If they are produced by a GIS server, check that they follow the GEMINI 2.1 schema, rather than vanilla ISO19139 or other similar format. Otherwise, check your fields and ordering against those in the [GEMINI Encoding Guidance](http://data.gov.uk/library/uk-gemini-encoding-guidance) - Appendix A.
+* **This element is not expected** In a GEMINI document, the XML elements must come in a particular order, and your document might have this wrong. Other explanations for this error include adding elements that are not recognized. If they are produced by a GIS server, check that they follow the GEMINI 2.1 schema, rather than vanilla ISO 19139 or other similar format. Otherwise, check your fields and ordering against those in the [GEMINI Encoding Guidance](http://data.gov.uk/library/uk-gemini-encoding-guidance) - Appendix A.
 
 Other common Location/GEMINI specific errors are covered in the [Common Metadata Errors Guide (PDF)](http://data.gov.uk/library/common-metadata-errors-guide).
 

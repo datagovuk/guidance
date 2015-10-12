@@ -30,7 +30,7 @@ Examples:
 
 ## Publishing INSPIRE/Location data
 
-The INSPIRE legislation requires most geo-spatial data to be published according to certain standards, and be registered on data.gov.uk in a certain way. The records must be published in GEMINI2 format and be harvested. Common ways to do this are:
+The INSPIRE legislation requires most geo-spatial data to be published according to certain standards, and be registered on data.gov.uk in a certain way. The records must be published in [GEMINI format](gemini_iso.html#gemini) and be harvested. Common ways to do this are:
 
 * Metadata records are created at the [UK Location Metadata Editor website](https://locationmde.data.gov.uk/). You fill in the web form to create each record and the website publishes them at a 'WAF service' which data.gov.uk harvests. Geographical software is also required to provide the data to users in a way that fulfils the INSPIRE 'View' and 'Download' requirements. For more information, consult the [User Guide to the UK Location Metadata Editor](https://data.gov.uk/sites/default/files/library/Metadata%20Editor%20User%20Guide.pdf)
 
