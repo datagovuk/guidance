@@ -400,3 +400,7 @@ Small Device Styles
   }
 
 }
+
+h3 {
+  clear: both;
+}
