@@ -35,6 +35,8 @@ layout: "default"
 
     * [CKAN fields](ckan_fields.html)
 
+    * [GEMINI and ISO 19139 metadata](gemini_iso.html)
+
   * [INSPIRE](inspire.html) (overview)
 
     * [UK Location Metadata Editor guide (PDF)](http://data.gov.uk/sites/default/files/library/Metadata%20Editor%20User%20Guide.pdf)
@@ -46,6 +48,8 @@ layout: "default"
   * [Themes](theme.html)
 
   * [Five Stars of Openness](five_stars_of_openness.html)
+
+  * [£25k Spend data - publishing by central government](25k-spend-data.html)
 
   * [Publisher FAQ](publisher_faq.html)
 

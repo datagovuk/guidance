@@ -13,8 +13,7 @@ There are two main methods for adding datasets to data.gov.uk:
 
 2. Using a harvester. You store the dataset records on your own server and they are 'harvested' regularly into data.gov.uk. It requires some set-up, but it is ideal when there is already a published list of datasets on your site (or elsewhere). More:
 
-   * [Harvesting normal datasets](harvesting_non_location.html)
-   * [Harvesting INSPIRE/Location datasets](inspire.html#harvesting-inspirelocation-data)
+   * [Harvesting data into data.gov.uk](harvesting.html)
 
 Before this you need to [register a user account on data.gov.uk and get approved as 'editor' or 'admin' for your publisher](becoming_an_editor_or_admin.html).
 
