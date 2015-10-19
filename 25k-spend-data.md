@@ -11,6 +11,20 @@ Central government bodies (including NHS) are required to publish the details of
 
 (from [HMT Guidance](https://www.gov.uk/government/publications/guidance-for-publishing-spend-over-25000))
 
+The ONS classifications can be found the "index" tab: [Public Sector Classification Guide, September 2015 (Excel)](http://www.ons.gov.uk/ons/rel/na-classification/national-accounts-sector-classification/classification-update-and-forward-workplan--september-2015/rft-table-1.xls)
+
+and includes for example:
+
+  * Clinical Commissioning Groups (CCGs)
+  * NHS Trusts (England)
+  * Research Councils
+
+## Timing
+
+> Spend is to be published one month in arrears, ie by the last working day of the month following the month to which the data relates.
+
+(from [HMT Guidance](https://www.gov.uk/government/publications/guidance-for-publishing-spend-over-25000))
+
 ## What file format should the data files be?
 
 > The files are to be uploaded in CSV file format. Microsoft Excel files should be converted to CSV.
