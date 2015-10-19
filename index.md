@@ -43,6 +43,8 @@ layout: "default"
 
   * [Five Stars of Openness](five_stars_of_openness.html)
 
+  * [£25k Spend data - publishing by central government](25k-spend-data.html)
+
 * (legacy) [User Guide (PDF)](http://data.gov.uk/sites/default/files/library/User%20guide.pdf)
 
 ## For Admins
