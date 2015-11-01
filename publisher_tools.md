@@ -22,6 +22,6 @@ This section assumes you are logged into data.gov.uk
 <img src="images/publisher-tools.png" style="float: right; width: 400px;">
 
 1. This row of icons gives you basic tools, detailed below
-2. The administrators box gives you access to the key operations you need to perform. ‘edit user permissions’ is only available to administrator accounts
+2. The administrators box gives you access to the key operations you need to perform. [Edit user permissions](editing_permissions.html) is only available to administrator accounts
 
 <img src="images/icons-explained.png" style="margin: auto; width: 400px;">
