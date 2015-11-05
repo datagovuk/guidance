@@ -84,3 +84,12 @@ Alternatively, if your organization happens to have its own data website (e.g. r
 ## At data.gov.uk can I just link to a web page, which in turn provides the links to the files?
 
 This is bad practice, because it requires a human to find the actual download link - a computer cannot find it automatically - which is particularly import for aggregating large quantities of spend data for analysis. And even for a human, it is 'yet another barrier' to getting the data.
+
+## How far back must the data be published?
+
+> * new items of central government spending over £25,000 to be published online from November 2010
+> * new items of local government spending over £500 to be published on a council-by-council basis from January 2011
+
+from [Prime Minister's letter on transparency May 2010](https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data)
+
+It is important to supply data back to 2010/2011 to allow comparison over several years.
