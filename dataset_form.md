@@ -34,7 +34,23 @@ NB You can't use this method for publishing INSPIRE/Location data. See more [her
 
 # Form fields guidance
 
-NB More detailed guidance is available in the [User Guide (PDF)](http://data.gov.uk/sites/default/files/library/User%20guide.pdf)
+### Add a dataset
+
+<img src="images/dataset-edit-tabs.png" style="float: right; width: 250px;"/>
+
+The publication/editing wizard follows a tab structure. When creating new datasets you will have to click on next at the bottom of the wizard to continue.
+
+### Naming the dataset
+
+Think of a logical name for your record if you are creating a new one. Often it will need adjusting for data.gov.uk so that it makes sense to a layman. e.g. don't call it "Bathymetry survey 14a Dogger North 2011", call it "Sea bed scan, area 14a Dogger North". Leave the date off usually - put this in the resource title instead because there will likely be updates.
+
+A URL for your dataset will be created from the name that you enter. 
+
+![url available](images/url-available.png)
+
+If the generated URL is already used by another dataset then a warning will be displayed saying 'This URL is not available'. You can change either the name of the dataset to generate a new URL or manually change the URL until a unused value is found. Including the name of your organisation in the title is an easy way to make it unique.
+
+![url unavailable](images/url-unavailable.png)
 
 ### Information icons
 
@@ -50,6 +66,27 @@ If you choose single file and then add subsequent publications, you will have to
 
 [Monthly datasets problem](monthly_datasets_problem.html)
 
+### Data files
+
+![data files](images/data-files.png)
+
+1. Choose whether you are creating a single file record (a record for a one off file) or a time series, for a single file...
+2. Give the file a comprehensive title. Be succinct (i.e. Bird population in Essex by type)
+3. Provide the link to the file, not to an html page, but to the file directly. Format will be added automatically
+4. You can then check if the address is correct by using the ‘check url’ button or check all after you have finished adding the links
+5. You can add more files (some returns, even if they are single may contain more than one file) by clicking the plus sign
+
+### Time series
+
+![time series files](images/dataset-timeseries.png)
+
+1. A time series record is for files that will have newer iterations as time passes (expenditure, cyclical data, etc.)
+2. Give the file a comprehensive title, be succinct (i.e. Bird population in Essex by
+type)
+3. Provide the link to the file, not to an html page, but to the file directly. Format will be added automatically
+4. You can then check if the address is correct by using the ‘check url’ button or check all after you have finished adding the links
+5. Provide the date of the file, not the date you are uploading, follow the format suggested
+
 ### 'Check' button
 
 ![check button](images/form_check_button.png)
@@ -57,6 +94,54 @@ If you choose single file and then add subsequent publications, you will have to
 The 'check' functionality allows the system to identify the format of the file and automatically add it to the record, avoiding chances of different spellings. The 'check all URLs' option allows you to check that the URLs entered are all active and working.
 
 If you encounter problems when clicking the 'check' or 'check all URLs' buttons (no format appears in the format box or the check all URLs process takes too long ) don't use them. Manually enter the format of your file (which SHOULD always be CSV or another open format, NOT XLS, HTML OR PDF). This issue arises because some older browsers may not work well with this feature.
+
+### Description and themes
+
+Provide as much information about the dataset as you can, remember that the first few lines of this description will appear in search results
+
+![check button](images/description-and-themes.png)
+
+A primary and secondary themes are generated from the text entered in the description box. Click on the 'Update themes' link to generate them. The reasons why the themes were chosen will be listed. If you think that the themes are inaccurate, please expand the description to mention the topic of the dataset better.
+
+### Licence
+
+Leave as default unless the dataset is bound by a different licensing scheme (it should not as a rule). If other is chosen in the drop down you will be able to add details for the licence.
+
+![licence](images/dataset-licence.png)
+
+### Publisher
+
+Select the publisher for this dataset to be published by from the drop down list. The contact details from our records associated with the publisher will be displayed. If the details are wrong you can modify them.
+
+**Note: this feature is currently not working. The contact details associated with the publisher will not be displayed. However editing the details on this page will override the ones stored for the publisher.**
+
+![publisher](images/dataset-publisher.png)
+
+### Additional resources
+
+Here you can enter links to any other document or page that provides more information on the dataset.
+
+![additional resources](images/dataset-additional-resources.png)
+
+### Temporal coverage
+
+Where available it is important to include the time period for the data. This may be a single date or a range of dates. If a single date is being entered please leave the second box blank.
+
+The dates should be in the format DD/MM/YYYY, e.g. 21/03/2007. Optionally the date can include the time in the format HH:MM, e.g. 07:45 31/03/2006.
+
+![temporal coverage](images/dataset-temporal.png)
+
+### Geographic coverage
+
+It is also useful to include geographic coverage for the dataset. Use the checkboxes to select one or more areas which are covered by the data.
+
+![geographic coverage](images/dataset-geographic.png)
+
+### Extras
+
+This tab allows you to specify a number of optional extra metadata fields for the dataset, including a URL for a page discussing the dataset and a number of dates relating to the publishing and updating of the dataset.
+
+![extras](images/dataset-extras.png)
 
 # Form submission
 
