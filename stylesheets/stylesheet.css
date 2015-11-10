@@ -156,6 +156,7 @@ p img {
   text-align: center;
   border: 0px solid #444;
   box-shadow: 3px 5px 3px #888888;
+  max-width: 100%;
 }
 
 pre, code {

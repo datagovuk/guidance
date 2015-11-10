@@ -15,7 +15,7 @@ No, we keep historical versions once published, if the dataset is for a single f
 
 ### Our website has a lovely portal where we publish our data, can I just point to it?
 
-You must provide a link to the data file itself, you can always add a link to your portal under the URL option in the extras section of the publishing wizard.
+You **must** provide a link to the data file itself, you can always add a link to your portal under the URL option in the extras section of the publishing wizard.
 
 ### How do I determine what data should be published in Data.gov.uk?
 

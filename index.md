@@ -19,6 +19,8 @@ layout: "default"
 
   * [Publisher Tools](publisher_tools.html)
 
+  * [Editing user permissions](editing_permissions.html)
+
   * [Web form for adding/updating datasets](dataset_form.html)
 
     * [Monthly datasets problem](monthly_datasets_problem.html)
