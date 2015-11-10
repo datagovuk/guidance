@@ -11,6 +11,20 @@ Central government bodies (including NHS) are required to publish the details of
 
 (from [HMT Guidance](https://www.gov.uk/government/publications/guidance-for-publishing-spend-over-25000))
 
+The ONS classifications can be found the "index" tab: [Public Sector Classification Guide, September 2015 (Excel)](http://www.ons.gov.uk/ons/rel/na-classification/national-accounts-sector-classification/classification-update-and-forward-workplan--september-2015/rft-table-1.xls)
+
+and includes for example:
+
+  * Clinical Commissioning Groups (CCGs)
+  * NHS Trusts (England)
+  * Research Councils
+
+## Timing
+
+> Spend is to be published one month in arrears, ie by the last working day of the month following the month to which the data relates.
+
+(from [HMT Guidance](https://www.gov.uk/government/publications/guidance-for-publishing-spend-over-25000))
+
 ## What file format should the data files be?
 
 > The files are to be uploaded in CSV file format. Microsoft Excel files should be converted to CSV.
@@ -70,3 +84,12 @@ Alternatively, if your organization happens to have its own data website (e.g. r
 ## At data.gov.uk can I just link to a web page, which in turn provides the links to the files?
 
 This is bad practice, because it requires a human to find the actual download link - a computer cannot find it automatically - which is particularly import for aggregating large quantities of spend data for analysis. And even for a human, it is 'yet another barrier' to getting the data.
+
+## How far back must the data be published?
+
+> * new items of central government spending over £25,000 to be published online from November 2010
+> * new items of local government spending over £500 to be published on a council-by-council basis from January 2011
+
+from [Prime Minister's letter on transparency May 2010](https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data)
+
+It is important to supply data back to 2010/2011 to allow comparison over several years.

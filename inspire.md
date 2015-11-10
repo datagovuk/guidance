@@ -12,12 +12,17 @@ layout: "default"
 
 ## INSPIRE scope
 
-INSPIRE places obligations on these publishers and sorts of data:
+INSPIRE places legal obligations on public bodies to publish particular datasets.
+
+Public bodies means:
 
 * most UK public bodies (includes central government, local authorities and all other public authorities as defined in the [Environmental Information Regulations 2004](http://www.legislation.gov.uk/uksi/2004/3391/contents/made)).
+
+Relevant datasets are those which meet all these criteria:
+
 * geo-spatial data (i.e. the data points contain a location e.g. latitude/longitude or post code etc)
 * data that is in any of the [34 INSPIRE themes](http://inspire.ec.europa.eu/index.cfm/pageid/2/list/7), however UK Location encourages ALL geo-spatial data to be published the INSPIRE way
-* published data (the law does not compel you to publish data that is not currently published)
+* existing data (the law does not compel you to collect any data)
 
 For more about INSPIRE's scope, see [UK Location Getting Started - Guide 2 - Organisation and Data Coverage (PDF)](http://data.gov.uk/library/uk-location-getting-started-guide-2-organisation-and-data-coverage).
 
@@ -27,6 +32,9 @@ Examples:
 | ------- | -------- | --------- | ----------- |
 | [River catchment area boundaries](http://data.gov.uk/dataset/water-framework-directive-river-waterbody-catchments-wms) | Yes | Yes | Its publisher Environment Agency is a government agency, the data falls under the INSPIRE theme "Hydrography", and the data is geo-spatial - it can be plotted on a map. |
 | [Road accidents](http://data.gov.uk/dataset/road-accidents-safety-data) | No | Yes | The subject of the data is not covered in the 34 INSPIRE themes so it is not covered by INSPIRE. However the data is Location data - each accident is located using a OS grid reference (and latitude & longitude) so it is geo-spatial. So the publisher could have still published the metadata in GEMINI and provided INSPIRE-style View (WMS) and Download Services (WFS/Atom), but has chosen not to in this case, sticking to basic CSV.|
+
+Local authorities should make use of the detailed guidance from the Local Government Association which lists datasets likely to be held by LAs covered by INSPIRE: [A Guide to INSPIRE compliance in local government](http://www.local.gov.uk/c/document_library/get_file?uuid=ba19b779-eb8d-404c-af07-25ecd921aed9)
+
 
 ## Publishing INSPIRE/Location data
 

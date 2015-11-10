@@ -17,13 +17,13 @@ layout: "default"
 
   * [Becoming an Editor or Admin](becoming_an_editor_or_admin.html)
 
-  * [Publisher Tools](publisher_tools.html)
-
-  * [Web form for adding/updating datasets](dataset_form.html)
+  * [Dataset form for adding/updating datasets](dataset_form.html)
 
     * [Monthly datasets problem](monthly_datasets_problem.html)
 
     * [Updating problem](updating_problem.html)
+
+  * [Publisher Tools](publisher_tools.html)
 
   * [Reports](reports.html)
 
@@ -52,8 +52,6 @@ layout: "default"
   * [£25k Spend data - publishing by central government](25k-spend-data.html)
 
   * [Publisher FAQ](publisher_faq.html)
-
-* (legacy) [User Guide (PDF)](http://data.gov.uk/sites/default/files/library/User%20guide.pdf)
 
 ## For Admins
 
