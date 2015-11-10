@@ -48,7 +48,7 @@ The dataset name is the first thing seen when this record appears in the search 
 * Give the context e.g. "Price Paid Data" would be better as "Land/Property Transaction Prices Paid"
 * Don't include the name of the publishing organization (since it is already shown in the search results under the name) so if Brent Council is publishing its car parks, rather than "Brent Council Car Parks" call it "Car Parks".
 * Don't feel it is necessary to make it the same as the official title of the data if it breaks the guidance here. If the official title is short, you could include it in the name with something more descriptive, or if it is longer, simply include the official title in the description field. e.g. "Boundary-Line" would be better as "Boundary-Line - electoral & administrative boundaries".
-* Don't include a date. Usually data is updated with new Data files, so instead put the date in the Data file date field (change it to "time series"). e.g. "25k Spending 2012" would be better as "25k Spending"
+* Don't include a date. Usually data is updated with new Data files, so instead put the date in the Data file date field (change it to "time series"). e.g. "Spend transactions 2012" would be better as "Spending transactions"
 * Check the spelling, since the URL is based on the name and cannot be changed after you save the form.
 
 ### URL
@@ -122,6 +122,8 @@ Select the licence that the data is being released as. As the form states, this 
 
 ### Publisher
 
+Select the organization that publishes this data. The only available options on this list are the publishers that you are an Editor or Admin for.
+
 ### Contact details
 
 When you select the publisher in the drop down list, the contact details from our records associated with the publisher will be displayed. If these details are not suitable for this particular dataset, then you can edit them here and they are stored as an exception.
@@ -135,6 +137,8 @@ When you select the publisher in the drop down list, the contact details from ou
 Here you can enter links to any other document or web page that provides more information on the dataset.
 
 ![additional resources](images/dataset-additional-resources.png)
+
+Please ignore the 'Scraper name' column and leave its contents blank.
 
 ### Temporal coverage
 

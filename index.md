@@ -53,8 +53,6 @@ layout: "default"
 
   * [Publisher FAQ](publisher_faq.html)
 
-* (legacy) [User Guide (PDF)](http://data.gov.uk/sites/default/files/library/User%20guide.pdf)
-
 ## For Admins
 
 * [Assigning Editors and Admins](assigning_editors_and_admins.html)
