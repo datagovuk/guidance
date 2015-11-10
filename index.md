@@ -17,15 +17,13 @@ layout: "default"
 
   * [Becoming an Editor or Admin](becoming_an_editor_or_admin.html)
 
-  * [Publisher Tools](publisher_tools.html)
-
-  * [Editing user permissions](editing_permissions.html)
-
   * [Dataset form for adding/updating datasets](dataset_form.html)
 
     * [Monthly datasets problem](monthly_datasets_problem.html)
 
     * [Updating problem](updating_problem.html)
+
+  * [Publisher Tools](publisher_tools.html)
 
   * [Reports](reports.html)
 
