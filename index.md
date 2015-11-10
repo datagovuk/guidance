@@ -21,7 +21,7 @@ layout: "default"
 
   * [Editing user permissions](editing_permissions.html)
 
-  * [Web form for adding/updating datasets](dataset_form.html)
+  * [Dataset form for adding/updating datasets](dataset_form.html)
 
     * [Monthly datasets problem](monthly_datasets_problem.html)
 

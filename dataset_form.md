@@ -42,15 +42,26 @@ The publication/editing wizard follows a tab structure. When creating new datase
 
 ### Naming the dataset
 
-Think of a logical name for your record if you are creating a new one. Often it will need adjusting for data.gov.uk so that it makes sense to a layman. e.g. don't call it "Bathymetry survey 14a Dogger North 2011", call it "Sea bed scan, area 14a Dogger North". Leave the date off usually - put this in the resource title instead because there will likely be updates.
+The dataset name is the first thing seen when this record appears in the search results, so it's important to get right.
 
-A URL for your dataset will be created from the name that you enter. 
+* It's got to be understandable by a layman - explain jargon e.g. "AfA458 LIDAR Composite DSM - 1m" might be better as "LIDAR surface map - composite DSM 1m" (and the latter bits only because there are several LIDAR maps to differentiate from)
+* Give the context e.g. "Price Paid Data" would be better as "Land/Property Transaction Prices Paid"
+* Don't include the name of the publishing organization (since it is already shown in the search results under the name) so if Brent Council is publishing its car parks, rather than "Brent Council Car Parks" call it "Car Parks".
+* Don't feel it is necessary to make it the same as the official title of the data if it breaks the guidance here. If the official title is short, you could include it in the name with something more descriptive, or if it is longer, simply include the official title in the description field. e.g. "Boundary-Line" would be better as "Boundary-Line - electoral & administrative boundaries".
+* Don't include a date. Usually data is updated with new Data files, so instead put the date in the Data file date field (change it to "time series"). e.g. "25k Spending 2012" would be better as "25k Spending"
+* Check the spelling, since the URL is based on the name and cannot be changed after you save the form.
+
+### URL
+
+When you create a dataset, a URL for your dataset will be created from the name that you enter. 
 
 ![url available](images/url-available.png)
 
 If the generated URL is already used by another dataset then a warning will be displayed saying 'This URL is not available'. You can change either the name of the dataset to generate a new URL or manually change the URL until a unused value is found. Including the name of your organisation in the title is an easy way to make it unique.
 
 ![url unavailable](images/url-unavailable.png)
+
+When you edit a dataset, the URL will not be editable. This is to provide continuity for people when they refer to the dataset. This is particularly important to users of the API.
 
 ### Information icons
 
@@ -70,22 +81,22 @@ If you choose single file and then add subsequent publications, you will have to
 
 ![data files](images/data-files.png)
 
-1. Choose whether you are creating a single file record (a record for a one off file) or a time series, for a single file...
-2. Give the file a comprehensive title. Be succinct (i.e. Bird population in Essex by type)
-3. Provide the link to the file, not to an html page, but to the file directly. Format will be added automatically
-4. You can then check if the address is correct by using the ‘check url’ button or check all after you have finished adding the links
-5. You can add more files (some returns, even if they are single may contain more than one file) by clicking the plus sign
+* Choose whether you are creating a single file record (a record for a one-off file) or a time series.
+* If it is a time series you need to give it a date (5). You can specify just the year (YYYY) or just a month (MM/YYYY) or a full date (DD/MM/YYYY).
+* Give the file a succinct title (2). e.g. "Spreadsheet with all tables". If it is split into regions say what this file is e.g. "North-East England". There is no need to repeat the date if it is a time series, but if the date needs explaining then do so, e.g. "Financial Year 2012/13".
+* Provide the URL (also known as 'link') for the file (3). Do not link to an HTML page, but to the file download directly.
+* You can then check if the address is correct by using the 'Check' button (4) or 'Check all URLs' after you have finished adding the links. However it can be unreliable - see the section on the Check button below.
+You can add more files (some returns, even if they are single may contain more than one file) by clicking the plus sign (5).
+
+Although it says "files" you should also add links to APIs here (e.g. SPARQL, WMS, etc). Usually that is the root URL of an API that might not return much by default, but it is still good to add it here. If you have a web page that helps you call SPARQL queries then a link to that would go in the Additional Resources section - see below.
 
 ### Time series
 
 ![time series files](images/dataset-timeseries.png)
 
-1. A time series record is for files that will have newer iterations as time passes (expenditure, cyclical data, etc.)
-2. Give the file a comprehensive title, be succinct (i.e. Bird population in Essex by
-type)
-3. Provide the link to the file, not to an html page, but to the file directly. Format will be added automatically
-4. You can then check if the address is correct by using the ‘check url’ button or check all after you have finished adding the links
-5. Provide the date of the file, not the date you are uploading, follow the format suggested
+If you select time series then you can specify the "Update Frequency" and get the "Date" column to fill in for each file.
+
+The benefit of choosing 'time series' is that the files will be displayed to the public ordered in date order, and previous years hidden by default. For more than a few files, this is a much better experience for users. In addition, the date is available to users in a machine-readable format.
 
 ### 'Check' button
 
@@ -93,7 +104,7 @@ type)
 
 The 'check' functionality allows the system to identify the format of the file and automatically add it to the record, avoiding chances of different spellings. The 'check all URLs' option allows you to check that the URLs entered are all active and working.
 
-If you encounter problems when clicking the 'check' or 'check all URLs' buttons (no format appears in the format box or the check all URLs process takes too long ) don't use them. Manually enter the format of your file (which SHOULD always be CSV or another open format, NOT XLS, HTML OR PDF). This issue arises because some older browsers may not work well with this feature.
+If you encounter problems when clicking the 'check' or 'check all URLs' buttons (no format appears in the format box or the check all URLs process takes too long ) don't use them. Manually enter the format of your file (which SHOULD always be CSV or another open format, NOT XLS, HTML OR PDF). This issue arises because some older browsers may not work well with this feature, and the file type is determined simply by the URL extension or mimetype.
 
 ### Description and themes
 
@@ -101,25 +112,27 @@ Provide as much information about the dataset as you can, remember that the firs
 
 ![check button](images/description-and-themes.png)
 
-A primary and secondary themes are generated from the text entered in the description box. Click on the 'Update themes' link to generate them. The reasons why the themes were chosen will be listed. If you think that the themes are inaccurate, please expand the description to mention the topic of the dataset better.
+A primary and secondary themes are generated from the text entered in the description box. Click on the 'Update themes' link to generate them. The reasons why the themes were chosen will be listed. If you think that the themes are inaccurate, please expand the description to mention the topic of the dataset better. If that still isn't working then follow the instructions to add tags or [contact us](https://data.gov.uk/contact).
 
 ### Licence
 
-Leave as default unless the dataset is bound by a different licensing scheme (it should not as a rule). If other is chosen in the drop down you will be able to add details for the licence.
+Select the licence that the data is being released as. As the form states, this should be OGL for nearly all of central government and its agencies. Publishers should select OGL or other open licence in the list if at all possible. However if it is not possible then select "other" from the drop-down and type the licence details in the box which appears.
 
 ![licence](images/dataset-licence.png)
 
 ### Publisher
 
-Select the publisher for this dataset to be published by from the drop down list. The contact details from our records associated with the publisher will be displayed. If the details are wrong you can modify them.
+### Contact details
 
-**Note: this feature is currently not working. The contact details associated with the publisher will not be displayed. However editing the details on this page will override the ones stored for the publisher.**
+When you select the publisher in the drop down list, the contact details from our records associated with the publisher will be displayed. If these details are not suitable for this particular dataset, then you can edit them here and they are stored as an exception.
+
+**Note: this feature is currently not working correctly. The contact details associated with the publisher will not be displayed in the form. However they will be displayed by default when you view the dataset, unless you provide different ones in this form.**
 
 ![publisher](images/dataset-publisher.png)
 
 ### Additional resources
 
-Here you can enter links to any other document or page that provides more information on the dataset.
+Here you can enter links to any other document or web page that provides more information on the dataset.
 
 ![additional resources](images/dataset-additional-resources.png)
 
@@ -139,7 +152,7 @@ It is also useful to include geographic coverage for the dataset. Use the checkb
 
 ### Extras
 
-This tab allows you to specify a number of optional extra metadata fields for the dataset, including a URL for a page discussing the dataset and a number of dates relating to the publishing and updating of the dataset.
+Other odd pieces of information may be attached to a dataset, such as fields that used to be on the form but have since been deprecated. These are collected together in the 'Extras' tab. **However** editing this is reserved for sysadmins, so [contact us](https://data.gov.uk/contact) if it is important to change this information on an existing record.
 
 ![extras](images/dataset-extras.png)
 
