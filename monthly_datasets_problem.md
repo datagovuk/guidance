@@ -39,7 +39,7 @@ When you create the dataset, on the 'Data Files' tab:
 
    NB You don't need to put them in order with the arrow buttons - a time series will display in the correct order automatically.
 
-When a new month's data comes out you simple [Edit the dataset](dataset_form.html#edit-a-dataset), click on the "Data files" tab and fill in a new row.
+When a new month's data comes out you simple [Edit the dataset](dataset_form.html#edit-a-dataset), click on the "Data files" tab and fill in a new row. Finally click 'Save and finish'.
 
 ## What about converting lots of datasets?
 
