@@ -25,7 +25,7 @@ When you create the dataset, on the 'Data Files' tab:
 
 1. Select "A timeseries record". This adds the "Date" column to the table below.
 
-![monthly datasets in the form](images/monthly_datasets_form.png)
+   ![monthly datasets in the form](images/monthly_datasets_form.png)
 
 2. Select the correct "Update frequency".
 
@@ -39,11 +39,13 @@ When you create the dataset, on the 'Data Files' tab:
 
    NB You don't need to put them in order with the arrow buttons - a time series will display in the correct order automatically.
 
+4. Click 'Save and finish'.
+
 When a new month's data comes out you simple [Edit the dataset](dataset_form.html#edit-a-dataset), click on the "Data files" tab and fill in a new row. Finally click 'Save and finish'.
 
 ## What about converting lots of datasets?
 
-NB As of September 2015, the data.gov.uk team has developed a semi-automatic tool to merge datasets together into a time series. They will aim to use it on spend data and inform publishers. You can also ask for particular datasets to be merged - to do this [contact](https://data.gov.uk/contact) us with the URLs of the datasets to merge.
+NB As of September 2015, the data.gov.uk team has developed a semi-automatic tool to merge datasets together into a time series. It has been [run on all publishers that had spend data spread across multiple datasets](https://data.gov.uk/blog/tidying-time-series-data), and publishers informed individually. You can also ask for other datasets to be merged in this way - to do this [contact](https://data.gov.uk/contact) us with the URLs of the datasets to merge.
 
 Alternatively, to manually merge datasets:
 
