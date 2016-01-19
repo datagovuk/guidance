@@ -19,6 +19,46 @@ You can change the order of the results using the 'Sort by' drop-down.
 
 ![Sort dropdown](images/finding_data_sort.png)
 
+### Keyword search tips 
+
+When using keyword search, you can use advanced operators to enhance your query.
+The examples below show how you can use those operators.
+
+* ```"armed forces" expenses``` - search for exact phrases by putting quote marks around them
+
+* ```primary school -care age NOT "cultural identity"``` - exclude words or quoted phrases by using a minus sign or NOT
+
+* ```primary OR secondary school``` - use 'OR' to allow alternatives (the default is to 'AND' all of the terms)
+
+You can also search specific fields, ```publisher:cabinet-office res_format:CSV``` searches only for CSV files published by the Cabinet Office.
+
+Some of the fields that are available to you are listed below:
+
+* __name__ - Find datasets by matching words in the name of the dataset.
+* __title__ - Match words in the title of the dataset
+* __notes__ - Match words in the description of the dataset
+* __license_id__ - Match on licence, such as license_id:uk-ogl
+* __publisher__ - Show only datasets for a given publisher, e.g. cabinet-office, or forestry-commission
+* __parent_publishers__ - As for publisher, but show the top-level publisher
+* __res_format__ - Show only datasets containing a resource of the specified format, such as CSV, or XLS.
+* __res_url__ - Show based on the URL of a resource.
+* __UKLP__ - Show only UKLP/INSPIRE records. This should be True or False.
+* __core_dataset__ - By specifying true or false you can limit to only datasets in the NII, or datasets not in the NII.
+* __metadata_created__ and __metadata_modified__ - Will allow you to search based on when the dataset was created. This is a date format, see below.
+* __metadata_modified__ - Will allow you to search based on when the dataset was last modified. This is a date format, see below.
+
+You can also invert the search by prepending ! to the key. For example, to find all CSV files that are not published by Cabinet Office - ```!publisher:cabinet-office res_format:CSV```
+
+#### Searching with dates 
+
+The __metadata_modified__ and __metadata_created__ fields both expect date ranges. Date ranges should be specified in full ISO 8601 format (such as 1976-03-06T23:59:59.999Z) although some special operators are available, and examples are given below.
+
+* ```metadata_created:[* TO NOW]``` - Show all datasets created.
+
+* ```metadata_created:[NOW-1YEAR TO NOW]``` - Show all datasets created in the last year. You can substitute DAY, or MONTH here.
+
+* ```metadata_modified:[2016-01-01T00:00:00.000Z TO 2016-02-01T00:00:00.000Z]``` - Show all datasets modified in January 2016.
+
 
 ## Search by publisher
 
