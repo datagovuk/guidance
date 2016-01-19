@@ -34,18 +34,18 @@ You can also search specific fields, ```publisher:cabinet-office res_format:CSV`
 
 Some of the fields that are available to you are listed below:
 
-* __name__ - Find datasets by matching words in the name of the dataset.
-* __title__ - Match words in the title of the dataset
-* __notes__ - Match words in the description of the dataset
-* __license_id__ - Match on licence, such as license_id:uk-ogl
-* __publisher__ - Show only datasets for a given publisher, e.g. cabinet-office, or forestry-commission
-* __parent_publishers__ - As for publisher, but show the top-level publisher
-* __res_format__ - Show only datasets containing a resource of the specified format, such as CSV, or XLS.
-* __res_url__ - Show based on the URL of a resource.
-* __UKLP__ - Show only UKLP/INSPIRE records. This should be True or False.
-* __core_dataset__ - By specifying true or false you can limit to only datasets in the NII, or datasets not in the NII.
-* __metadata_created__ and __metadata_modified__ - Will allow you to search based on when the dataset was created. This is a date format, see below.
-* __metadata_modified__ - Will allow you to search based on when the dataset was last modified. This is a date format, see below.
+* __name__ - name of the dataset, as seen in the dataset's URL.
+* __title__ - The title of the dataset
+* __notes__ - The description of the dataset
+* __license_id__ - The licence, such as license_id:uk-ogl
+* __publisher__ - Publisher names, as found in the publisher's URL, e.g. cabinet-office, or forestry-commission
+* __parent_publishers__ - As for publisher, but shows the top-level publisher
+* __res_format__ - The format of the resource, such as CSV, or XLS.
+* __res_url__ - The URL of a resource.
+* __UKLP__ - UKLP/INSPIRE records. This should be True or False.
+* __core_dataset__ - If true, only datasets in the NII. If false, only datasets not in the NII.
+* __metadata_created__ - When the dataset was created. This is a date format, see below.
+* __metadata_modified__ - When the dataset was last modified. This is a date format, see below.
 
 You can also invert the search by prepending ! to the key. For example, to find all CSV files that are not published by Cabinet Office - ```!publisher:cabinet-office res_format:CSV```
 
