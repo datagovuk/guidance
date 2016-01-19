@@ -30,6 +30,8 @@ The examples below show how you can use those operators.
 
 * ```primary OR secondary school``` - use 'OR' to allow alternatives (the default is to 'AND' all of the terms)
 
+The full syntax is explained in the [Lucene documentation](https://lucene.apache.org/core/4_0_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#minitoc-area)
+
 You can also search specific fields, ```publisher:cabinet-office res_format:CSV``` searches only for CSV files published by the Cabinet Office.
 
 Some of the fields that are available to you are listed below:
