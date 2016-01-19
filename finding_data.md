@@ -26,7 +26,7 @@ The examples below show how you can use those operators.
 
 * ```"armed forces" expenses``` - search for exact phrases by putting quote marks around them
 
-* ```primary school -care age NOT "cultural identity"``` - exclude words or quoted phrases by using a minus sign or NOT
+* ```primary school -care age``` - exclude words or quoted phrases by using a minus sign or NOT
 
 * ```primary OR secondary school``` - use 'OR' to allow alternatives (the default is to 'AND' all of the terms)
 
