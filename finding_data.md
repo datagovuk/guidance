@@ -7,7 +7,7 @@ Whether you know exactly what data you want, or just want to browser, then data.
 
 ## Search by keyword
 
-On the [search page](http://data.gov.uk/data/search) you can click on the search box and type related words ('keywords'), like for a normal internet search engine.
+On the [search page](https://data.gov.uk/data/search) you can click on the search box and type related words ('keywords'), like for a normal internet search engine.
 
 ![Search box](images/finding_data_keyword_box.png)
 
@@ -36,18 +36,19 @@ You can also search specific fields, ```publisher:cabinet-office res_format:CSV`
 
 Some of the fields that are available to you are listed below:
 
-* __name__ - name of the dataset, as seen in the dataset's URL.
-* __title__ - The title of the dataset
-* __notes__ - The description of the dataset
-* __license_id__ - The licence, such as license_id:uk-ogl
-* __publisher__ - Publisher names, as found in the publisher's URL, e.g. cabinet-office, or forestry-commission
-* __parent_publishers__ - As for publisher, but shows the top-level publisher
-* __res_format__ - The format of the resource, such as CSV, or XLS.
-* __res_url__ - The URL of a resource.
-* __UKLP__ - UKLP/INSPIRE records. This should be True or False.
-* __core_dataset__ - If true, only datasets in the NII. If false, only datasets not in the NII.
-* __metadata_created__ - When the dataset was created. This is a date format, see below.
-* __metadata_modified__ - When the dataset was last modified. This is a date format, see below.
+* __title__ - title of the dataset e.g. "Flood Levels"
+* __name__ - name of the dataset, as seen in the dataset's URL e.g. "flood-levels"
+* __notes__ - long description of the dataset e.g. "Spreadsheet of 42 flood levels, sampled daily"
+* __license_id__ - licence code for the data e.g. license_id:uk-ogl
+* __publisher__ - publisher names, as found in the publisher's URL e.g. publisher:cabinet-office
+* __parent_publishers__ - as for publisher, but includes the dataset publisher's top-level publisher and parents inbetween
+* __res_format__ - The format of the resource e.g. format:CSV
+* __res_url__ - The URL of the resource e.g. res_url:"http://data.carbonculture.net/orgs/cabinet-office/70-whitehall/reports/elec00.csv"
+* __UKLP__ - UKLP/INSPIRE records. This should be True or False e.g. UKLP:True
+* __guid__ - UKLP unique identifier e.g. guid:d9d114da-9fb8-4e02-bfde-3ffaba37e917
+* __core_dataset__ - Datasets in the National Information Infrastructure (NII). True or False e.g. core_dataset:True
+* __metadata_created__ - When the dataset record was created in data.gov.uk. This is a date format - see below
+* __metadata_modified__ - When the dataset record was last modified in data.gov.uk. This is a date format - see below. NB this can be updated on the smallest of changes, including bulk updates across the data.gov.uk catalogue.
 
 You can also invert the search by prepending ! to the key. For example, to find all CSV files that are not published by Cabinet Office - ```!publisher:cabinet-office res_format:CSV```
 
