@@ -17,6 +17,8 @@ and includes for example:
 
   * Clinical Commissioning Groups (CCGs)
   * NHS Trusts (England)
+  * NHS Foundation Trusts (England)
+  * Strategic Health Authorities (England)
   * Research Councils
 
 ## Timing
