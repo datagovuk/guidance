@@ -70,20 +70,23 @@ NB: each publisher should only have ONE 'dataset' for 25k spend data (and anothe
 Most publishers should use the data.gov.uk web form to add each month's data:
 
 1. Find your publisher on the [publisher page](https://data.gov.uk/publisher) and click on it.
-2. Now on your publisher's page, in the search box type "spend" or "expenditure" to find the spend dataset (if it doesn't already exist then you'll need to [create it](dataset_form.html))
-3. On the dataset ensure you're logged in as an editor for the publisher and click "Edit Dataset properties"
+2. Now on your publisher's page, if you don't see the '25k spend' dataset straight away, in the search box type "spend" or "expenditure" to find it. If it doesn't already exist then you'll need to [create it](dataset_form.html) and ensure that on the 'Data Files' tab you select "A timeseries record".
+3. Click on the dataset.
    ![edit dataset link](images/form_edit_link.png)
-4. Click on the "Data Files" tab.
-5. At the bottom of the table, add the new month's details.
+4. If you don't see the blue box with "Edit Dataset properties" then either you need to log in, or if you are already logged in then you need to [become 'editor' or 'admin' for your publisher](becoming_an_editor_or_admin.html).
+5. Click "Edit Dataset properties"
+6. Click on the "Data Files" tab.
+7. At the bottom of the table, add the new month's details.
    ![edit dataset link](images/spend_form_files.png)
    * Date: ignore the calendar that pops up that asks for a specific day in the month - just type the month and year in the exact `MM/YYYY` format e.g. `08/2015` for August 2015.
    * File Title: it's not necessary to repeat the date, but there needs to be something - you could just put `Spend transaction`.
    * URL: Paste into this box the CSV file download link. Ensure the link is the one that actually downloads the dataset immediately, rather than a link to a web page. (We suggest you ignore the check button as it is unreliable at detecting if the link is correct, and may fill in the format field inaccurately.)
    * Format: This should be `CSV` to match the file format.
+8. Click 'Save and finish'.
 
 Alternatively, if your organization happens to have its own data website (e.g. running CKAN) that is harvested into data.gov.uk, then you can do a similar process to add the dataset to that site instead, and when it harvests it will automatically be added to data.gov.uk as well. This is an excellent way to keep your site and data.gov.uk in step.
 
-## At data.gov.uk can I just link to a web page, which in turn provides the links to the files?
+## At data.gov.uk can I just provide one link to a web page, which in turn provides the links to all the files?
 
 This is bad practice, because it requires a human to find the actual download link - a computer cannot find it automatically - which is particularly import for aggregating large quantities of spend data for analysis. And even for a human, it is 'yet another barrier' to getting the data.
 

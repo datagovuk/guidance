@@ -19,17 +19,19 @@ In addition, it tidies away previous years' data to make the page manageable. Ma
 
 This is a far better experience for users and is actually an easier process for the publisher to update.
 
-## How do I do that?
+## How do I create or convert to a 'time-series' dataset?
 
-When you create the dataset, on the 'Data Files' tab:
+This assumes you having clicked "Add a new dataset" or "Edit dataset properties" - for more details see [Dataset Form](dataset_form.html#add-a-dataset).
 
-1. Select "A timeseries record". This adds the "Date" column to the table below.
+1. Click on the "Data Files" tab.
+
+2. Select "A timeseries record". This adds the "Date" column to the table below.
 
    ![monthly datasets in the form](images/monthly_datasets_form.png)
 
-2. Select the correct "Update frequency".
+3. Select the correct "Update frequency".
 
-3. Fill in the table. Each row corresponds to one month, with the unique URL for that month's data.
+4. Fill in the table. Each row corresponds to one month, with the unique URL for that month's data. If you have any existing rows then they will need the "Date" field completing before the page can be submitted.
 
    ![form row example](images/monthly_datasets_form_row.png)
 
@@ -39,9 +41,13 @@ When you create the dataset, on the 'Data Files' tab:
 
    NB You don't need to put them in order with the arrow buttons - a time series will display in the correct order automatically.
 
-4. Click 'Save and finish'.
+5. Click 'Save and finish'.
 
-When a new month's data comes out you simple [Edit the dataset](dataset_form.html#edit-a-dataset), click on the "Data files" tab and fill in a new row. Finally click 'Save and finish'.
+## How do I add new months to a time-series dataset?
+
+When a new month's data comes out you simply [Edit the dataset](dataset_form.html#edit-a-dataset), click on the "Data files" tab and fill in a new row. Finally click 'Save and finish'.
+
+There is a fuller description for spend data on this page: [£25k Spend data - publishing by central government: How do I put this onto data.gov.uk?](25k-spend-data.html#how-do-i-put-this-onto-datagovuk)
 
 ## What about converting lots of datasets?
 
