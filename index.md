@@ -24,12 +24,6 @@ layout: "default"
 
     * [Updating problem](updating_problem.html)
 
-  * [Publisher Tools](publisher_tools.html)
-
-  * [Reports](reports.html)
-
-  * [Glossary](glossary.html)
-
   * [Harvesting datasets](harvesting.html)
 
     * [DCAT/data.json fields](dcat_fields.html)
@@ -42,17 +36,25 @@ layout: "default"
 
     * [UK Location Metadata Editor guide (PDF)](http://data.gov.uk/sites/default/files/library/Metadata%20Editor%20User%20Guide.pdf)
 
-  * [Unpublished datasets](unpublished.html)
+* [Issues management](issues_management.html)
 
-  * [Deleting datasets](deleting_datasets.html)
+* [Publisher Tools](publisher_tools.html)
 
-  * [Themes](theme.html)
+* [Reports](reports.html)
 
-  * [Five Stars of Openness](five_stars_of_openness.html)
+* [Glossary](glossary.html)
 
-  * [£25k Spend data - publishing by central government](25k-spend-data.html)
+* [Unpublished datasets](unpublished.html)
 
-  * [Publisher FAQ](publisher_faq.html)
+* [Deleting datasets](deleting_datasets.html)
+
+* [Themes](theme.html)
+
+* [Five Stars of Openness](five_stars_of_openness.html)
+
+* [£25k Spend data - publishing by central government](25k-spend-data.html)
+
+* [Publisher FAQ](publisher_faq.html)
 
 ## For Admins
 
