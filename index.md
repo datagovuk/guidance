@@ -71,3 +71,5 @@ layout: "default"
 * [Publisher creation](publisher_creation.html)
 
 * [Publisher editing](publisher_editing.html)
+
+* [Moderation queue](moderation_queue.html)
