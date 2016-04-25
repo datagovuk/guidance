@@ -27,13 +27,13 @@ Please see the separate page: [Publisher editing](publisher_editing.html)
 
 Although the edit form allows you to change the 'Publisher name', there are some issues to consider:
 
-1. There is a technical difficulty with changing the publisher's URL (because the publisher's datasets need reindexing if that is changed). This can be overcome by getting a developer to run the related paster command, (or for a publisher with only a handful of datasets, hack the form in the browser to allow the field to be editable).
+1. There is a technical difficulty with changing the publisher's URL (because the publisher's datasets need reindexing if that is changed). This can be overcome by getting a developer to run the [publisher rename script](https://github.com/datagovuk/ckanext-dgu/issues/395#issue-150852553), (or for a publisher with only a handful of datasets, hack the form in the browser to allow the field to be editable).
 
 2. Has the publisher actually been closed and a new one created? The new one may not wish to take responsibility for the old datasets and so you might just want to create a new publisher and mark this one as closed.
 
 ## Publisher closure, taken-over, merge etc.
 
-If a publisher closes, without an obvious successor, we want to keep the datasets, so the publisher is left, but marked as closed in the description. Ideally we'd marked them as closed visually on the publisher tree, but this has not been implemented yet, so since this is particularly an issue with NHS bodies, we've created the "Previous NHS Institutions" body to move them under.
+If a publisher closes, without an obvious successor, we want to keep the datasets, so the publisher is left, but marked as closed.
 
 If a publisher closes and its function is taken over by another body, there is a choice whether to move the datasets under the new body or leave them. It depends on whether the new body wants to take responsibility for them. If choosing to move them, a command-line script is usually written.
 
