@@ -49,7 +49,7 @@ Optional fields: Supplier postcode, Supplier type, Contract number, Project code
 
 NB: the first row of the file MUST be the column headings (no title or blank rows) and subsequent rows must all be transactions (no 'total' or blank rows).
 
-You must not rename the columns e.g. do not change "Amount" to "Amount (£)".
+Do not use different names for the columns. e.g. do not use "Amount (£)" - it must be "Amount".
 
 ## What transactions should be included / excluded?
 
