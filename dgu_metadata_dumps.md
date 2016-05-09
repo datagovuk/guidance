@@ -12,11 +12,11 @@ There are two versions:
 
 These files are big and so we provide some hints of a few ways to use them.
 
-## Use Excel/LibreOffice filter & sort
+## Use Excel/LibreOffice to filter & sort
 
 datasets.csv opens in Excel or similar (give it a few seconds to load the 30k rows).
 
-Select the first row (click on the "1" on the left side) and then from the "Data" menu select "Filter" / "Autofilter" (LibreOffice has it under "Data \| Filter \| Autofilter").
+Select the first row (click on the "1" on the left side) and then from the "Data" menu select "Filter" or "Autofilter" (LibreOffice has it under "Data \| Filter \| Autofilter").
 
 ![Switching on auto-filter](images/dumps-autofilter-switch-on.png)
 
@@ -24,11 +24,11 @@ Now that 'Autofilter' is switched on, you should see in the first row each cell 
 
 ![Auto-filter menu](images/dumps-autofilter-menu.png)
 
-For example, click on the "Top level organization" filter icon. On the filter panel click "All" to clear all the ticks against all the values listed, and then click on "Department for Business, Innovation and Skills" and then OK. This filter is on now, so all the rows which are not from this organization are hidden:
+For example, click on the "Top level organization" filter icon. On the filter panel click "Select All" (or "All" in LibreOffice) to clear all the ticks against all the values listed, and then click on "Department for Business, Innovation and Skills" and then close the window ("OK" if it has it, otherwise the 'x' or red button in the top-left corner of the dialog box). This filter is on now, so all the rows which are not from this organization are hidden:
 
 ![Auto-filter menu](images/dumps-autofilter-filtered.png)
 
-(You can see from the row numbers at the far left that many rows are hidden, and in cell E1 the filter is shown as active by the blue colour and dot on the drop-down button.)
+You can see from the row numbers at the far left that many rows are hidden, and in cell E1 the filter is shown as active by filter icon on the drop-down button (in LibreOffice it has a blue column heading and a dot on the drop-down button).
 
 We can also add other filters at the same time, for instance we can filter out 'unpublished' datasets by setting the 'Published' column with a filter for 'True' values.
 
