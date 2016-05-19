@@ -54,6 +54,8 @@ layout: "default"
 
 * [£25k Spend data - publishing by central government](25k-spend-data.html)
 
+* [Organogram data - Staff Roles and Salaries - publishing by central government](organogram-data.html)
+
 * [Publisher FAQ](publisher_faq.html)
 
 ## For Admins
