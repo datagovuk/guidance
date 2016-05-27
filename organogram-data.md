@@ -71,20 +71,22 @@ Not at the moment. We should be able to though in the new system, so keep hold o
 
 #### Q: How do I copy and paste my spreadsheet data onto a new template spreadsheet?
 
-Sometimes your spreadsheet full of data won't work or upload for some reason, and you want to copy the data to a new blank spreadsheet template. This is quick, especially if you follow these tips:
+A number of upload problems can be solved by transferring the data from your existing spreadsheet file to a fresh organogram template file. This is quick to do if you use these instructions:
 
 * Copy the entire "reference" sheets across: "(reference) units", "(reference) generic-job-titles", "(reference) junior-grades". If you don't then you'll find the other sheets won't validate.
+
+  In each sheet, press Ctrl-A (Windows) or &#8984;-A (Mac) to select all the cells and then from the Edit menu select 'Copy'. Open the new orgranogram template file, go to the sheet of the same name and from the Edit menu select 'Paste.
 
 * You don't need to copy the "working" sheets if you don't want to - the system doesn't need them.
 
 * Copying the "final data" sheets needs to be done in parts because you can't paste into the locked cells, which are the header (first) row and the greyed-out columns. To be specific, here are the ranges to copy and paste:
 
-  Sheet                      | Copy     | Paste in the new workbook at
-  ---------------------------|----------|-----------------------------
-  (final data) senior-staff  | A2:N2000 | A2
-  (final data) senior-staff  | P2:R2000 | P2
-  (final data) junior-staff  | A2:E6000 | A2
-  (final data) junior-staff  | H2:J6000 | H2
+  Sheet                      | Copy cells | Paste in the new workbook at
+  ---------------------------|------------|-----------------------------
+  (final data) senior-staff  | A2:N2000   | A2
+  (final data) senior-staff  | P2:R2000   | P2
+  (final data) junior-staff  | A2:E6000   | A2
+  (final data) junior-staff  | H2:J6000   | H2
 
 #### Q: How do I fix an "invalid" spreadsheet?
 
