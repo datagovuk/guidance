@@ -75,7 +75,7 @@ A number of upload problems can be solved by transferring the data from your exi
 
 * Copy the entire "reference" sheets across: "(reference) units", "(reference) generic-job-titles", "(reference) junior-grades". If you don't then you'll find the other sheets won't validate.
 
-  In each sheet, press Ctrl-A (Windows) or &#8984;-A (Mac) to select all the cells and then from the Edit menu select 'Copy'. Open the new orgranogram template file, go to the sheet of the same name and from the Edit menu select 'Paste.
+  In each sheet, press Ctrl-A (Windows) or &#8984;-A (Mac) to select all the cells and then from the Edit menu select 'Copy'. Open the new orgranogram template file, go to the sheet of the same name and from the Edit menu select 'Paste'.
 
 * You don't need to copy the "working" sheets if you don't want to - the system doesn't need them.
 
