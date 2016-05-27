@@ -65,19 +65,38 @@ In the near future, the CSV data will be provided for download in dataset record
 
 ## Publication FAQ
 
-#### Can I publish data for past periods?
+#### Q: Can I publish data for past periods?
 
 Not at the moment. We should be able to though in the new system, so keep hold of the data for the moment.
 
-#### How do I fix an "invalid" spreadsheet?
+#### Q: How do I copy and paste my spreadsheet data onto a new template spreadsheet?
+
+Sometimes your spreadsheet full of data won't work or upload for some reason, and you want to copy the data to a new blank spreadsheet template. This is quick, especially if you follow these tips:
+
+* Copy the entire "reference" sheets across: "(reference) units", "(reference) generic-job-titles", "(reference) junior-grades". If you don't then you'll find the other sheets won't validate.
+
+* You don't need to copy the "working" sheets if you don't want to - the system doesn't need them.
+
+* Copying the "final data" sheets needs to be done in parts because you can't paste into the locked cells, which are the header (first) row and the greyed-out columns. To be specific, here are the ranges to copy and paste:
+
+  Sheet                      | Copy     | Paste in the new workbook at
+  ---------------------------|----------|-----------------------------
+  (final data) senior-staff  | A2:N2000 | A2
+  (final data) senior-staff  | P2:R2000 | P2
+  (final data) junior-staff  | A2:E6000 | A2
+  (final data) junior-staff  | H2:J6000 | H2
+
+#### Q: How do I fix an "invalid" spreadsheet?
 
 ![invalid spreadsheet error message during upload](images/organogram_upload_invalid.png)
 
 "The spreadsheet is invalid. Please check your data and try again."
 
-If you upload your Excel file and get this error then it means that there is a problem with one or more lines of the spreadsheet.
+(not to be confused with the error below about an "older spreadsheet template")
 
-To work out exactly where the problem is, open the file in Excel and look on the "(final data)-junior staff" sheet. Scroll to the right-hand edge and there will be three coloured indicators.
+If you upload your Excel file and get this error then it means that there is a problem with one or more data rows in the spreadsheet.
+
+To work out exactly where the problem is, open the file in Excel and look on the "(final data)-junior staff" sheet. Scroll to column X and there will be three coloured indicators:
 
 ![spreadsheet validity indicator - workbook](images/organogram_spreadsheet_workbook_invalid.png)
 
@@ -89,12 +108,43 @@ For each sheet which has the problem, check the end of each row, where the colum
 
 ![spreadsheet validity indicator - row](images/organogram_spreadsheet_invalid.png)
 
-Some versions of the spreadsheet help you further by highlighting red the cell with the problem. And some versions have an extra column called "Invalid cell (Excel 2011+)" which tells you the column with the problem, but it only works in Excel 2011 and later.
+More recent versions of the spreadsheet help you further by highlighting red the cell with the problem. A few versions of the spreadsheet have an extra column called "Invalid cell (Excel 2011+)" which tells you the column with the problem, although this feature is problematic - if you have this column, please see information below about an "older spreadsheet template" before continuing.
 
 Once all problems are resolved and the 'WORKBOOK VALID?' indicator has gone green and you still get an error when you try to upload it, then [contact us](http://data.gov.uk/contact), supplying the file in question.
 
+#### Q: How do I fix an "older spreadsheet template"
 
-#### Why hasn't our organogram appeared?
+![invalid spreadsheet / "older spreadsheet template" error message during upload](images/organogram_upload_invalid_older.png)
+
+"The spreadsheet is invalid - You may be using an older version of the spreadsheet template. Please check your data and try again."
+
+(Not to be confused with the error in the previous section of this document that does not mention the "older spreadsheet template")
+
+It means that the spreadsheet structure is not correct.
+
+Follow these steps to find and solve the fault:
+
+* If the '(final data) junior-staff' sheet has "Invalid cell (Excel 2011+)" in cell L1 then this is causing problems. This is the case for spreadsheet templates issued 5/5/16 - 10/5/16. [Contact us](http://data.gov.uk/contact) to get this column removed, or to get the latest template, into which you can [copy and paste your data in](#q-how-do-i-copy-and-paste-my-spreadsheet-data-onto-a-new-template-spreadsheet).
+* If your spreadsheet template was from approximately 2010 then it is too old. [Contact us](http://data.gov.uk/contact) to get the latest template and [copy and paste your data into it](#q-how-do-i-copy-and-paste-my-spreadsheet-data-onto-a-new-template-spreadsheet).
+* Check that the key sheets are still called "(final data) senior-staff" and "(final data) junior-staff". Check that on sheet "(final data) junior-staff" there is still the validation block is still in column X in rows 1 to 6. If you can't fix any problems, [contact us](http://data.gov.uk/contact) to get the latest template and [copy and paste your data into it](#q-how-do-i-copy-and-paste-my-spreadsheet-data-onto-a-new-template-spreadsheet).
+
+![spreadsheet validity indicator - workbook](images/organogram_spreadsheet_workbook_invalid.png)
+
+If you still get the error on upload, you could try getting a fresh template and copy and paste the data across to it.
+
+#### Q: How do I fix error: "Could not find junior sheet"
+
+!["Could not find junior sheet" error message during upload](images/organogram_upload_invalid_finding_sheet.png)
+
+"Could not find junior sheet. Please check your data and try again."
+
+Follow these steps to find and solve the fault:
+
+* Check that the spreadsheet opens alright in Excel.
+* Check that the spreadsheet is not password protected. (It would prompt for the password when you open it in Excel.)
+* Check that the key sheets are still called "(final data) senior-staff" and "(final data) junior-staff". Check that on sheet "(final data) junior-staff" there is still the validation block is still in column X in rows 1 to 6. If you can't fix any problems, [contact us](http://data.gov.uk/contact) to get the latest template and [copy and paste your data into it](#q-how-do-i-copy-and-paste-my-spreadsheet-data-onto-a-new-template-spreadsheet).
+
+#### Q: Why hasn't our organogram appeared?
 
 Here is a check-list for when you've uploaded organogram data and don't see it appear at <http://data.gov.uk/organogram/>.
 
