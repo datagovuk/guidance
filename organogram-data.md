@@ -110,7 +110,7 @@ For each sheet which has the problem, check the end of each row, where the colum
 
 ![spreadsheet validity indicator - row](images/organogram_spreadsheet_invalid.png)
 
-More recent versions of the spreadsheet help you further by highlighting red the cell with the problem. A few versions of the spreadsheet have an extra column called "Invalid cell (Excel 2011+)" which tells you the column with the problem, although this feature is problematic - if you have this column, please see information below about an "older spreadsheet template" before continuing.
+More recent versions of the spreadsheet help you further by highlighting red the cell with the problem. A couple of versions of the spreadsheet have an extra column called "Invalid cell (Excel 2011+)" which tells you the column with the problem, although it didn't give accurate information. Also if you have this column in the '(final data) junior-staff' sheet then it will be problematic - if this is the case, please see information below about an "older spreadsheet template" before continuing.
 
 Once all problems are resolved and the 'WORKBOOK VALID?' indicator has gone green and you still get an error when you try to upload it, then [contact us](http://data.gov.uk/contact), supplying the file in question.
 
@@ -126,7 +126,7 @@ It means that the spreadsheet structure is not correct.
 
 Follow these steps to find and solve the fault:
 
-* If the '(final data) junior-staff' sheet has "Invalid cell (Excel 2011+)" in cell L1 then this is causing problems. This is the case for spreadsheet templates issued 5/5/16 - 10/5/16. [Contact us](http://data.gov.uk/contact) to get this column removed, or to get the latest template, into which you can [copy and paste your data in](#q-how-do-i-copy-and-paste-my-spreadsheet-data-onto-a-new-template-spreadsheet).
+* If the '(final data) junior-staff' sheet has "Invalid cell (Excel 2011+)" in cell L1 then this will be causing the problems. This is the case for the spreadsheet template issued on 10/5/16 - "Blank-Organogram-Template_20160510.xls". [Contact us](http://data.gov.uk/contact) to get this column removed, or to get the latest template, into which you can [copy and paste your data in](#q-how-do-i-copy-and-paste-my-spreadsheet-data-onto-a-new-template-spreadsheet).
 * If your spreadsheet template was from approximately 2010 then it is too old. [Contact us](http://data.gov.uk/contact) to get the latest template and [copy and paste your data into it](#q-how-do-i-copy-and-paste-my-spreadsheet-data-onto-a-new-template-spreadsheet).
 * Check that the key sheets are still called "(final data) senior-staff" and "(final data) junior-staff". Check that on sheet "(final data) junior-staff" there is still the validation block is still in column X in rows 1 to 6. If you can't fix any problems, [contact us](http://data.gov.uk/contact) to get the latest template and [copy and paste your data into it](#q-how-do-i-copy-and-paste-my-spreadsheet-data-onto-a-new-template-spreadsheet).
 
