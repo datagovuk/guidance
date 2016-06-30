@@ -40,6 +40,8 @@ The email should arrive in your in-box within 30 minutes (check your spam folder
 4. Click the validation link in the email to validate email address, which activates your account.
 ![user validation email](images/user_register_validated.png)
 
+   Note: if you do not validate your email address within 5 days then your account will be deleted. In this case, simply create another account.
+
 You can tell that you are logged in by the message "Hello (username)", next to the "Log out" link.
 
 This account is currently the same as any member of the public - it can create comments, submit apps, make data requests etc. But it is not an editor or admin yet. You can tell this visually because there is no blue spanner icon next to the user icon.
