@@ -3,7 +3,7 @@ title: Publishing on data.gov.uk - overview
 layout: "default"
 ---
 
-NB You can't upload _data_ to data.gov.uk. The data (e.g. spreadsheet file) should be published on your own website and then you add to data.gov.uk a 'dataset' (record) containing information about the data, including the link to it (e.g. download URL).
+NB You can't upload _data_ to data.gov.uk. The data (e.g. spreadsheet file) should be published on your organization's website (which for central government is [gov.uk](https://www.gov.uk/government/publications)) and then you add to data.gov.uk a 'dataset' (record) containing information about the data, including the link to it (e.g. download URL).
 
 There are two main methods for adding datasets to data.gov.uk:
 

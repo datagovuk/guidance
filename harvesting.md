@@ -5,6 +5,10 @@ layout: "default"
 
 # Introduction
 
+You can use software called a 'harvester' to collect datasets from your organisation’s website and publish them on data.gov.uk.
+
+Using a harvester lets you publish more than one dataset on data.gov.uk at once.
+
 This guide explains how a public body can transfer its dataset listings in bulk into data.gov.uk. The dataset records (metadata) are listed by the public body on their open data website (or GIS system or UK Location Metadata Editor) and they then operate data.gov.uk's "harvester" to transfer them into data.gov.uk.
 
 Most data (all apart from INSPIRE/Location data) can be added to data.gov.uk using the [web form](dataset_form.html), but bulk addition using the harvester offers a key advantage: it allows the publisher to store their dataset records on their own server, helping them keep it up to date as updates are published. Location/INSPIRE data has always been required to be harvested, whilst all other records have been able to be harvested since November 2014.
@@ -13,7 +17,7 @@ To work with the harvester, a public body's set of records are published on the 
 
 The launch of the non-Location harvesters in November 2014 was timed to support the Local Authorities to publish their metadata on data.gov.uk  about the datasets that local authorities are required to publish locally due to the [Local Government (Transparency Requirements) Regulations](http://www.legislation.gov.uk/uksi/2014/2680/introduction/made). Local authorities are also encouraged to publish their open datasets on data.gov.uk through the [Local Open Data Incentive Scheme](http://incentive.opendata.esd.org.uk/). Through a local government sector led approach, additional fields were requested and added by the LGA, such as function & service categories - these are imported by all of these harvesters. data.gov.uk is being enhanced to make good use of this extra metadata, to aid navigation by dataset type and automatically validate data against schemas.
 
-# How to Publish Datasets
+# How to publish datasets ready to be harvested
 
 A public body may or may not have a open data web site, but to be harvested into data.gov.uk it needs to ensure it is published in a suitable machine-readable way.
 
@@ -26,8 +30,10 @@ It is essential to understand if your data falls under the INSPIRE regulation - 
 
 ## Supported Formats
 
-| Harvester | Suitability | INSPIRE/Location | Example Harvest URL |
-| --------- | ----------- | ---------------- | ------------------- |
+You can only use a harvester if your datasets have been published in one of the following formats:
+
+| Format | Suitability | INSPIRE / Location | Example Harvest URL |
+| ------ | ----------- | ------------------ | ------------------- |
 | DCAT | Triple-stores | No | http://opendatacommunities.org/data.ttl |
 | data.json | Socrata, custom systems | No | https://nycopendata.socrata.com/data.json |
 | CKAN | CKAN | No | https://open.barnet.gov.uk/ |
@@ -145,16 +151,23 @@ data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more informa
    Now you should see the harvesting dashboard at <http://data.gov.uk/harvest>:
    ![harvest dashboard/sources](images/harvest_sources.png)
 
-   Note that the harvesters are public, but because you are logged in as an editor/admin you have the ability to create a harvester and see the status of your harvesters. You also see a status message in the yellow box.
+   Note that the harvesters are public, but because you are logged in as an editor/admin you also have the ability to create a harvester and see the status of your harvesters. You also see a status message in the yellow box.
 
-   To create the harvester click "Add a harvesting source" and fill out the form and click 'Save':
+   To create the harvester click "Add a harvesting source" and fill out the form:
+
+   * the name of your data website (eg 'London Data Store' or 'Borchester Council Website')
+   * the URL of where the datasets have been published
+   * the source format of the dataset, eg DCAT, CKAN, Inventory
+
    ![harvest source form blank](images/harvest_source_form_blank.png)
 
-   Here is an example for a harvesting CKAN server:
+   Here is an example for harvesting a CKAN server:
    ![harvest source form ckan](images/harvest_source_form_ckan.png)
 
    And here is an example for harvesting datasets from a DataShare that publishes Inventory XML:
    ![harvest source form inventory](images/harvest_source_form_inventory.png)
+
+   Once the form is complete, click 'Save'.
 
    When you click Save it will show you your harvester's details and tell you that the harvest has now been requested.
 

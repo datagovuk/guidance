@@ -34,26 +34,32 @@ NB You can't use this method for publishing INSPIRE/Location data. See more [her
 
 # Form fields guidance
 
-### Add a dataset
-
 <img src="images/dataset-edit-tabs.png" style="float: right; width: 250px;"/>
 
 The publication/editing wizard follows a tab structure. When creating new datasets you will have to click on next at the bottom of the wizard to continue.
 
 ### Naming the dataset
 
-The dataset name is the first thing seen when this record appears in the search results, so it's important to get right.
+Your dataset's name is most important to get right. Otherwise users will not be able to find it or not understand what it is in the search results, whether they are using Google or data.gov.uk's own search.
 
-* It's got to be understandable by a layman - explain jargon e.g. "AfA458 LIDAR Composite DSM - 1m" might be better as "LIDAR surface map - composite DSM 1m" (and the latter bits only because there are several LIDAR maps to differentiate from)
-* Give the context e.g. "Price Paid Data" would be better as "Land/Property Transaction Prices Paid"
-* Don't include the name of the publishing organization (since it is already shown in the search results under the name) so if Brent Council is publishing its car parks, rather than "Brent Council Car Parks" call it "Car Parks".
-* Don't feel it is necessary to make it the same as the official title of the data if it breaks the guidance here. If the official title is short, you could include it in the name with something more descriptive, or if it is longer, simply include the official title in the description field. e.g. "Boundary-Line" would be better as "Boundary-Line - electoral & administrative boundaries".
-* Don't include a date. Usually data is updated with new Data files, so instead put the date in the Data file date field (change it to "time series"). e.g. "Spend transactions 2012" would be better as "Spending transactions"
-* Check the spelling, since the URL is based on the name and cannot be changed after you save the form.
+* Use popular keywords to make your dataset findable. To identify popular keywords, see [How to optimise your content for search](https://www.gov.uk/guidance/content-design/data-and-analytics#how-to-optimise-your-content-for-search)
+* It's got to be understandable by a layman - explain jargon. eg "AfA458 LIDAR Composite DSM - 1m" might be better as "LIDAR surface map - composite DSM 1m" (and the latter bits only because there are several LIDAR maps to differentiate from)
+* Give the context. eg "Price Paid Data" would be better as "Land/Property Transaction Prices Paid"
+* Front-load the title with the information the user is most likely to search for.
+* The length should be 65 characters or less. This includes spaces. Most search engines shorten titles if they’re longer than this, meaning words or part of words will be cut off.
+
+Don't include:
+
+* the name of the publishing organization (since it is already shown in the search results under the name) so if Brent Council is publishing its car parks, rather than "Brent Council Car Parks" call it "Car Parks".
+* the official title of the data (if it breaks the guidance here). If the official title is short, you could include it in the name with something more descriptive, or if it is longer, simply include the official title in the description field. eg "Boundary-Line" would be better as "Boundary-Line - electoral & administrative boundaries".
+* a date. Usually data is updated with new data files, so instead put the date in the "Data file" tab's "date" field (change it to "time series" if it doesn't appear). eg "Spend transactions 2012" would be better as "Spending transactions"
+* acronyms - unless they’re commonly used, eg EU or LIDAR
+
+You can’t edit the URL once the dataset has been published.
 
 ### URL
 
-When you create a dataset, a URL for your dataset will be created from the name that you enter. 
+When you create a dataset, a URL for your dataset will be created from the name that you enter.
 
 ![url available](images/url-available.png)
 
@@ -71,9 +77,11 @@ Many fields have an 'information' icon, which displays more guidance if you hove
 
 ### Timeseries vs Single File
 
-It is very important that you select the right type of dataset. If you are publishing a dataset that will have updates across time (yearly, monthly, etc.) then make sure you select the timeseries option on the data files section. This will allow the date of the file to dictate the sorting, so the latest file is automatically presented on top and everything else falls in chronological order.
+You can publish data on data.gov.uk as either a ‘single file’ or ‘time series’ dataset.
 
-If you choose single file and then add subsequent publications, you will have to order them manually. *You should not select single file for datasets that will have new files across time*.
+Use a **single file** dataset if the data only needs to be published once.
+
+Publish your dataset as a time series dataset if it needs to be updated, eg every month.
 
 [Monthly datasets problem](monthly_datasets_problem.html)
 
@@ -83,12 +91,12 @@ If you choose single file and then add subsequent publications, you will have to
 
 * Choose whether you are creating a single file record (a record for a one-off file) or a time series.
 * If it is a time series you need to give it a date (5). You can specify just the year (YYYY) or just a month (MM/YYYY) or a full date (DD/MM/YYYY).
-* Give the file a succinct title (2). e.g. "Spreadsheet with all tables". If it is split into regions say what this file is e.g. "North-East England". There is no need to repeat the date if it is a time series, but if the date needs explaining then do so, e.g. "Financial Year 2012/13".
+* Give the file a succinct title (2). eg "Spreadsheet with all tables". If it is split into regions say what this file is eg "North-East England". There is no need to repeat the date if it is a time series, but if the date needs explaining then do so, eg "Financial Year 2012/13".
 * Provide the URL (also known as 'link') for the file (3). Do not link to an HTML page, but to the file download directly.
 * You can then check if the address is correct by using the 'Check' button (4) or 'Check all URLs' after you have finished adding the links. However it can be unreliable - see the section on the Check button below.
 You can add more files (some returns, even if they are single may contain more than one file) by clicking the plus sign (5).
 
-Although it says "files" you should also add links to APIs here (e.g. SPARQL, WMS, etc). Usually that is the root URL of an API that might not return much by default, but it is still good to add it here. If you have a web page that helps you call SPARQL queries then a link to that would go in the Additional Resources section - see below.
+Although it says "files" you should also add links to APIs here (eg SPARQL, WMS, etc). Usually that is the root URL of an API that might not return much by default, but it is still good to add it here. If you have a web page that helps you call SPARQL queries then a link to that would go in the Additional Resources section - see below.
 
 ### Time series
 
@@ -108,11 +116,31 @@ If you encounter problems when clicking the 'check' or 'check all URLs' buttons 
 
 ### Description and themes
 
-Provide as much information about the dataset as you can, remember that the first few lines of this description will appear in search results
+![description field](images/form_description.png)
 
-![check button](images/description-and-themes.png)
+Along with the title, the first sentence of the description will be shown in search results. This sentence should be 140 characters or less. Search engines will automatically shorten any descriptions that are longer than this.
 
-A primary and secondary themes are generated from the text entered in the description box. Click on the 'Update themes' link to generate them. The reasons why the themes were chosen will be listed. If you think that the themes are inaccurate, please expand the description to mention the topic of the dataset better. If that still isn't working then follow the instructions to add tags or [contact us](https://data.gov.uk/contact).
+The description should explain:
+
+* what the data is about
+* why it was produced
+* if there are any known problems with the dataset, eg it’s incomplete
+
+Your description must be written in [plain English](https://www.gov.uk/guidance/content-design/writing-for-gov-uk#how-people-read). Include any keywords that you didn’t use in the title to help users find your dataset.
+
+#### Themes
+
+![theme](images/theme.png)
+
+Each dataset on data.gov.uk is allocated a theme.
+
+To have your dataset allocated to a theme, click the 'update themes' button after you've added your description. Your dataset will be automatically associated with a 'primary theme' and, in some cases, a 'secondary theme' too.
+
+The themes are decided by the most frequently used words in the title and description. For example, if your description features the words 'payment' or 'supplier', your dataset will be allocated the 'Government spending' theme.
+
+![theme generation](images/description-and-themes.png)
+
+If you think that the themes are inaccurate, please expand the description to mention the topic of the dataset better. If that still isn't working then follow the instructions on the form to add tags or [contact us](https://data.gov.uk/contact).
 
 ### Licence
 
@@ -144,7 +172,7 @@ Please ignore the 'Scraper name' column and leave its contents blank.
 
 Where available it is important to include the time period for the data. This may be a single date or a range of dates. If a single date is being entered please leave the second box blank.
 
-The dates should be in the format DD/MM/YYYY, e.g. 21/03/2007. Optionally the date can include the time in the format HH:MM, e.g. 07:45 31/03/2006.
+The dates should be in the format DD/MM/YYYY, eg 21/03/2007. Optionally the date can include the time in the format HH:MM, eg 07:45 31/03/2006.
 
 ![temporal coverage](images/dataset-temporal.png)
 
@@ -164,7 +192,7 @@ Other odd pieces of information may be attached to a dataset, such as fields tha
 
 ## Form errors
 
-When you click "Save and Finish", if there are problems with any field then it will list them at the top, and also with yellow warning triangles on the appropriate tabs, and when you click on the tab red sharded boxes say what the problem is next to the appropriate field e.g.
+When you click "Save and Finish", if there are problems with any field then it will list them at the top, and also with yellow warning triangles on the appropriate tabs, and when you click on the tab red sharded boxes say what the problem is next to the appropriate field eg
 ![form errors](images/form_errors.png)
 
 Occasionally new mandatory fields are added to the form. This can cause form errors to appear when you edit an existing dataset, even if you've not changed anything. In this case, fill in the new field to be able to save it successfully.
@@ -173,4 +201,4 @@ If, after clicking 'Save and finish’, you are still in the editing screen then
 
 ## Caching
 
-The data.gov.uk site is cached for 1 hour for general users, but not if you are logged in. This means that if you add a dataset or make a change, you will see it has changed straight away, but it will take up to an hour before it becomes visible to another person visiting the site (i.e. someone who does not log in). Please be aware of this when notifying people or announcing releases.
+The data.gov.uk site is cached for 1 hour for general users, but not if you are logged in. This means that if you add a dataset or make a change, you will see it has changed straight away, but it will take up to an hour before it becomes visible to another person visiting the site (ie someone who does not log in). Please be aware of this when notifying people or announcing releases.

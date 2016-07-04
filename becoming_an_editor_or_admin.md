@@ -3,11 +3,26 @@ title: Becoming an Editor or Admin
 layout: "default"
 ---
 
-## Account types
+# Administrator and editor accounts
 
-### Admin
+You must have an 'administrator' or 'editor' account if you want to publish on data.gov.uk.
 
-The administrator account serves to manage all editors creating/editing metadata under a given parent department. Administrators can create editors within their publisher hierarchy or across the family of publishers.
+If you have an administrator account, for your organisation you’ll be in charge of:
+
+* appointing other users as editors and other administrators
+* updating details about your organisation on data.gov.uk
+* creating and editing data records on data.gov.uk
+
+If you’re an editor, you’ll be responsible for:
+
+* creating and editing data records on data.gov.uk
+
+You need to ask for an administrator or editor account. There’s no limit on how many administrators or editors your organisation can have.
+
+
+### Administrator
+
+The administrator (admin) account serves to manage all editors creating/editing metadata under a given parent department. Administrators can create editors within their publisher hierarchy or across the family of publishers.
 
 Administrators are:
 
