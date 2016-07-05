@@ -5,7 +5,7 @@ title: "API"
 
 The data.gov.uk API is provided by CKAN and extensions.
 
-The CKAN API docs are extensive: <http://ckan.readthedocs.org/en/release-v2.2.2/>
+The CKAN API docs are extensive: <http://ckan.readthedocs.org/en/release-v2.2.3/>
 
 All the action functions return help text detailing parameters etc.
 
