@@ -44,6 +44,7 @@ These are for **data** not documentation.
 | conformsTo | dct:conformsTo | `http://schemas.opendata.esd.org.uk/publictoilets/PublicToilets.json?v=0.41` | URL of the machine-readable schema that the data conforms to. See: [Harvesting Guide - Appendix E - Local Authority data schemas (PDF)](http://data.gov.uk/sites/default/files/library/Harvesting%20guide.pdf). |
 | temporal | dct:temporal | 2000-01-15/2010-01-15 | The date period that the data applies to. Formatted as two ISO 8601 dates (or datetimes) separated by a slash. |
 | spatial |  dct:spatial | `{\"type\":\"Polygon\",\"coordinates\":[[[2.072, 49.943],[2.072, 55.816], [-6.236, 55.816], [-6.236, 49.943], [2.072, 49.943]]]}` | The geographic location that the data applies to. If not specified, then it is inherited from the dataset if not its publisher. Formatted as a GeoJSON point, bounding box or polygon. |
+| identifier | (equivalent to RDF object's URI or) dct:identifier | `https://data.some.org/catalog/datasets/9df8df51-63db-37a8-e044-0003ba9b0d98/resource/4252f71c-4f2f-4e37-ab4e-b58b4ac255bb` | Optional. Use it to help CKAN keep track of a distribution that has changing properties (e.g. a new URL or format), or for DCAT compliance. Must be globally unique - not just unique to the publisher. A URI is highly recommended (ideally one that returns a web page about the distribution). |
 
 ## data.json file structure
 
