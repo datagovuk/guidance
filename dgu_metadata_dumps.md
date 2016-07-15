@@ -3,7 +3,7 @@ layout: "default"
 title: "data.gov.uk metadata dumps"
 ---
 
-Every night the dataset catalogue of data.gov.uk is recorded as files, so that they are available in bulk and a record of changes time is built-up. These files are themselves data, and are catalgued here: <https://data.gov.uk/dataset/data_gov_uk-datasets>
+Every night the dataset catalogue of data.gov.uk is recorded as files, so that they are available in bulk and a record of changes time is built-up. These files are themselves data, and are catalogued here: <https://data.gov.uk/dataset/data_gov_uk-datasets>
 
 There are two versions:
 
