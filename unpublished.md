@@ -18,17 +18,17 @@ Please ensure that you are logged in and have been made an 'admin' for your publ
 ### Adding
 
 You can add to the catalogue your unpublished datasets from the management page for your publisher's unpublished datasets. To access this, first find your publisher page. When you log-in there is a link to your publisher page(s), or alternatively click on 'Data', 'Publishers', search for your publisher and then click on it. For example the 'Highways Agency' publisher page is at <http://data.gov.uk/publisher/highways-agency>
- 
+
 The management page is linked in the blue box:
-!(Link to unpublished)[images/unpublished_link.png]
+![Link to unpublished](images/unpublished_link.png)
 
 The management page is relatively self-explanatory:
-!(Unpublished datasets management page)[images/unpublished_manage.png]
+![Unpublished datasets management page](images/unpublished_manage.png)
 
 The suggested steps for reviewing and adding datasets are:
 
 1. Download the read-only dataset list to review your existing open data
-2. Download the inventory template 
+2. Download the inventory template
 3. Upload the completed inventory template
 
 ### Editing - via form
