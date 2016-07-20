@@ -52,7 +52,7 @@ layout: "default"
 
 * [Five Stars of Openness](five_stars_of_openness.html)
 
-* [£25k Spend data - publishing by central government](25k-spend-data.html)
+* [£25k/£500 Spend data and GPC card data - publishing by central and local government](25k-spend-data.html)
 
 * [Organogram data - Staff Roles and Salaries - publishing by central government](organogram-data.html)
 

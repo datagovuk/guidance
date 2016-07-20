@@ -1,9 +1,9 @@
 ---
 layout: "default"
-title: "£25k Spend data and GPC card data - publishing by central and local government"
+title: "£25k/£500 Spend data and GPC card data - publishing by central and local government"
 ---
 
-Central government bodies (including NHS) are required to publish the details of their expenditure transactions every month. This document provides links to the official guidance and details of how to add it to data.gov.uk.
+Central and local government bodies (including NHS) are required to publish the details of their expenditure transactions every month. This document provides links to the official guidance and details of how to add it to data.gov.uk.
 
 ## Which bodies are required to do this?
 
@@ -47,7 +47,9 @@ The full definition is in the [LGTC 2015](https://www.gov.uk/government/publicat
 ### Local government
 
 > Must: Quarterly publication
+
 > Recommended: Publish information on a monthly instead of quarterly basis, or ideally, as soon as it becomes available
+
 > published not later than one month after the quarter to which the data and information is applicable
 
 (from [LGTC 2015](https://www.gov.uk/government/publications/local-government-transparency-code-2015))
@@ -120,7 +122,7 @@ Most publishers should use the data.gov.uk web form to add each month's data:
 1. Find your publisher on the [publisher page](https://data.gov.uk/publisher) and click on it.
 2. Now on your publisher's page, if you don't see the '25k spend', '£500 spend' or 'GPC spend' dataset straight away, in the search box type "spend" or "expenditure" to find it. If it doesn't already exist then you'll need to [create it](dataset_form.html) and ensure that on the 'Data Files' tab you select "A timeseries record".
 3. Click on the dataset.
-   ![edit dataset link](images/form_edit_link.png)
+   ![edit dataset link](images/spend_form_edit_link.png)
 4. If you don't see the blue box with "Edit Dataset properties" then either you need to log in, or if you are already logged in then you need to [become 'editor' or 'admin' for your publisher](becoming_an_editor_or_admin.html).
 5. Click "Edit Dataset properties"
 6. Click on the "Data Files" tab.
