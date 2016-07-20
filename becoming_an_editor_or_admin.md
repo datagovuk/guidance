@@ -44,13 +44,19 @@ Editors are the people in charge of creating metadata records for their organisa
 1. At <http://data.gov.uk/>, click on "Register" at the top right of the screen: ![user register link](images/user_register_link.png)
 
 2. Complete the user registration form
+
 ![user register form](images/user_register_thumb.png)
+
 Click "Create new account"
+
 ![user register post message](images/user_register2.png)
+
 The email should arrive in your in-box within 30 minutes (check your spam folder).
+
 ![user validation email](images/user_register_email_thumb.png)
 
 3. Click the validation link in the email to validate email address, which activates your account.
+
 ![user validation email](images/user_register_validated.png)
 
    Note: if you do not validate your email address within 5 days then your account will be deleted. In this case, simply create another account.
