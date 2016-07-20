@@ -141,12 +141,12 @@ data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more informa
 
 1. Ensure you have a user account on data.gov.uk and it has been assigned permission for your organization, either as editor or admin. See: [Becoming an editor](becoming_an_editor_or_admin.html)
 
-   Once you've received admin/editor permission then when you log-in you'll see a blue spanner icon and your organization listed underneath when you click it. For example in this screenshot, this user has admin or editor permission for National Health Service and NHS England:
+   Once you've received admin/editor permission then when you log-in you'll see the blue "Publisher tools" button and your organization listed underneath when you click it. For example in this screenshot, this user has admin or editor permission for National Health Service and NHS England:
 ![harvest permissions](images/harvest_permissions.png)
 
 2. Create the harvester
 
-   Click on the blue spanner icon and select 'Dataset Harvesting'.
+   Click the blue "Publisher tools" button and select 'Dataset Harvesting'.
 
    Now you should see the harvesting dashboard at <http://data.gov.uk/harvest>:
    ![harvest dashboard/sources](images/harvest_sources.png)

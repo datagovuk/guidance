@@ -49,8 +49,8 @@ You can assign a user as an Editor as follows:
 
 3. Click 'Save' to save all the changes on the page.
 
-The user is now an Editor and they will see the blue spanner icon when logged in. Email them to let them know.
-![editor spanner](images/become_editor_spanner.png)
+The user is now an Editor and they will see the blue "Publisher tools" button when logged in. Email them to let them know.
+![publisher tools button](images/become_editor_publisher_tools_button.png)
 
 ## Assign to Admin
 

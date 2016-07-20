@@ -11,11 +11,12 @@ NB You can't use this method for publishing INSPIRE/Location data. See more [her
 
 2. There are two methods:
 
-   A. Click on the blue spanner icon and choose "Add a new dataset".
-      ![spanner method](images/form_add_dataset_spanner.png)
+   A. Click on the "Publisher tools" button and choose "Add a new dataset".
+      ![publisher tools button method](images/form_add_dataset_publisher_tools.png)
 
    B. Go to your publisher page and click "Add a new dataset".
       ![publisher page method](images/form_add_dataset_publisher_page.png)
+      (Note: if you are an editor, some of these options will not be shown to you)
 
 3. Complete the form using the guidance [below](#form-fields-guidance).
 

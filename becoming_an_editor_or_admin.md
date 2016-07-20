@@ -41,25 +41,23 @@ Editors are the people in charge of creating metadata records for their organisa
 
 ## Getting an account
 
-1. At <http://data.gov.uk/>, click on the user icon at the top right of the screen: ![user button](images/user_button.png)
+1. At <http://data.gov.uk/>, click on "Register" at the top right of the screen: ![user register link](images/user_register_link.png)
 
-2. Choose the 'I want to create an account' tab ![create account](images/user_select.png)
-
-3. Complete the user registration form
+2. Complete the user registration form
 ![user register form](images/user_register_thumb.png)
 Click "Create new account"
 ![user register post message](images/user_register2.png)
 The email should arrive in your in-box within 30 minutes (check your spam folder).
 ![user validation email](images/user_register_email_thumb.png)
 
-4. Click the validation link in the email to validate email address, which activates your account.
+3. Click the validation link in the email to validate email address, which activates your account.
 ![user validation email](images/user_register_validated.png)
 
    Note: if you do not validate your email address within 5 days then your account will be deleted. In this case, simply create another account.
 
-You can tell that you are logged in by the message "Hello (username)", next to the "Log out" link.
+You can tell that you are logged in by seeing your user name at the top right, next to the "My Content" and "Log out" links.
 
-This account is currently the same as any member of the public - it can create comments, submit apps, make data requests etc. But it is not an editor or admin yet. You can tell this visually because there is no blue spanner icon next to the user icon.
+This account is currently the same as one for any member of the public - it can create comments, submit apps, make data requests etc. But it is not an editor or admin yet. You can tell this visually because there is no "Publisher tools" button at the top right next to the search box.
 
 # Become an Editor
 
@@ -73,12 +71,12 @@ This account is currently the same as any member of the public - it can create c
 4. Fill out the form stating your position that gives you the authority to publish data on behalf of the organization.
 ![editor request form](images/become_editor_request_form.png)
 
-5. Take note of which department or organization the request was emailed to. 
+5. Take note of which department or organization the request was emailed to.
 ![editor request response](images/become_editor_request_submitted.png)
 You should be emailed by this organization when you have been made an editor. If you don't hear back for a couple of days, contact the data.gov.uk team using the Contact link at the bottom of the web page.
 
-Once you are an editor or admin you will see the blue spanner icon when logged in, and can now [publish data](publishing_on_data_gov_uk_overview.html).
-![editor spanner](images/become_editor_spanner.png)
+Once you are an editor or admin you will see the blue "Publisher tools" button when logged in, and can now [publish data](publishing_on_data_gov_uk_overview.html).
+![publisher tools button](images/become_editor_publisher_tools_button.png)
 
 # Become an Admin
 

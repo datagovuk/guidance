@@ -13,7 +13,7 @@ Clearly some many of the unpublished datasets are difficult or impossible to mak
 
 ## Managing unpublished datasets
 
-Please ensure that you are logged in and have been made an 'admin' for your publisher. If you do not see the blue spanner icon check out [this guide](becoming_an_editor_or_admin.html). If you have the blue spanner icon but not the 'Manage unpublished datasets' link then you are an editor not an admin. In this case, [contact data.gov.uk](http://data.gov.uk/contact) to request upgrade.
+Please ensure that you are logged in and have been made an 'admin' for your publisher. If you do not see the blue "Publisher tools" button check out [this guide](becoming_an_editor_or_admin.html). If you have the blue "Publisher tools" button but not the 'Manage unpublished datasets' link then you are an editor not an admin. In this case, [contact data.gov.uk](http://data.gov.uk/contact) to request upgrade.
 
 ### Adding
 

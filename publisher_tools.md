@@ -5,18 +5,15 @@ layout: "default"
 
 ## Managing your account
 
-```
-This section assumes you are logged into data.gov.uk
-and have been made an Editor or Admin for a publisher
-```
+NOTE: This section assumes you are logged into data.gov.uk and have [become an editor or admin for a publisher](becoming_an_editor_or_admin.html).
 
-### The spanner icon - your publishers
+### The Publisher tools button - your publishers
 
-<img src="images/become_editor_spanner.png">
+![publisher tools button](images/become_editor_publisher_tools_button.png)
 
-<img src="images/spanner-menu.png" style="float: right; width: 300px; margin: auto">
+The 'Publisher tools' provides a convenient way to navigate to any of your publishers - i.e. ones that you are an editor or admin for.
 
-The ‘spanner’ menu provides a convenient way to navigate to any of your publishers - i.e. ones that you are an Editor or Admin for.
+![publisher tools menu](images/publisher_tools_menu.png)
 
 You can also add a dataset from this menu or go to the harvesting page.
 
@@ -30,7 +27,9 @@ On a publisher page, there is a bar of icons on the right hand side. They are ex
 
 <img src="images/publisher-tools.png" style="width: 600px;">
 
-On a publisher page, an Editor or Admin sees the blue 'Administrator Tools', givint you access to the management operations.
+On a publisher page, an Editor or Admin sees the blue 'Administrator Tools' button, giving you access to the management operations.
+
+![publisher tools button](images/become_editor_publisher_tools_button.png)
 
 * [Edit publisher properties](publisher_editing.html) - only available to Admins
 * [Manage unpublished datasets](unpublished.html) - only available to Admins
