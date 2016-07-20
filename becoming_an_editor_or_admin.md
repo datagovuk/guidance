@@ -82,6 +82,7 @@ This account is currently the same as one for any member of the public - it can 
 You should be emailed by this organization when you have been made an editor. If you don't hear back for a couple of days, contact the data.gov.uk team using the Contact link at the bottom of the web page.
 
 Once you are an editor or admin you will see the blue "Publisher tools" button when logged in, and can now [publish data](publishing_on_data_gov_uk_overview.html).
+
 ![publisher tools button](images/become_editor_publisher_tools_button.png)
 
 # Become an Admin
