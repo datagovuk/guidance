@@ -88,6 +88,23 @@ A number of upload problems can be solved by transferring the data from your exi
   (final data) junior-staff  | A2:E6000   | A2
   (final data) junior-staff  | H2:J6000   | H2
 
+#### Q: How do I fix an spreadsheet that isn't "valid Excel"?
+
+![not valid Excel spreadsheet error message during upload](images/organogram_upload_not_valid_excel.png)
+
+"That doesn't look like a valid Excel spreadsheet."
+
+(not to be confused with messages concerning an "invalid" spreadsheet - see below)
+
+This occurs if the filename does not end in exactly ".xls".
+
+This may be because:
+* It has been saved as .xlsx (this newer format is not accepted)
+* It has been capitalized
+* Macs sometimes leave off the extension completely when saving files
+
+Correct the filename extension using Windows Explorer or Mac Finder before re-uploading.
+
 #### Q: How do I fix an "invalid" spreadsheet?
 
 ![invalid spreadsheet error message during upload](images/organogram_upload_invalid.png)
@@ -114,7 +131,7 @@ More recent versions of the spreadsheet help you further by highlighting red the
 
 Once all problems are resolved and the 'WORKBOOK VALID?' indicator has gone green and you still get an error when you try to upload it, then [contact us](http://data.gov.uk/contact), supplying the file in question.
 
-#### Q: How do I fix an "older spreadsheet template"
+#### Q: How do I fix an "older spreadsheet template"?
 
 ![invalid spreadsheet / "older spreadsheet template" error message during upload](images/organogram_upload_invalid_older.png)
 
