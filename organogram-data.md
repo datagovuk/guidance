@@ -69,6 +69,20 @@ In the near future, the CSV data will be provided for download in dataset record
 
 Not at the moment. We should be able to though in the new system, so keep hold of the data for the moment.
 
+#### Q: Can a published organogram be replaced or removed?
+
+You can replace an organogram for the current period by reuploading the spreadsheet, ensuring the "Parent Department" and "Organisation" columns remain the same. Occasionally this causes a problem where old data doesn't get deleted, and duplicate roles are seen - see below "Every role is duplicated".
+
+You cannot remove a published organogram without involving the software supplier - if you need this, [contact us](http://data.gov.uk/contact). (In the file upload interface, neither clicking "Published" to change its state, nor "Delete" will remove the organogram from the public view.)
+
+#### Q: Every role is duplicated
+
+This problem can be identified by the number "2" (or more) seen on every role. In addition, the name (or same ID) is listed twice in the information box. For example:
+
+![Duplicate roles problem](images/organogram_duplicates_problem.png)
+
+If this is the case, [contact us](http://data.gov.uk/contact) so that we can ask the supplier to sort it out.
+
 #### Q: How do I copy and paste my spreadsheet data onto a new template spreadsheet?
 
 A number of upload problems can be solved by transferring the data from your existing spreadsheet file to a fresh organogram template file. This is quick to do if you use these instructions:
