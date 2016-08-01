@@ -75,14 +75,6 @@ You can replace an organogram for the current period by reuploading the spreadsh
 
 You cannot remove a published organogram without involving the software supplier - if you need this, [contact us](http://data.gov.uk/contact). (In the file upload interface, neither clicking "Published" to change its state, nor "Delete" will remove the organogram from the public view.)
 
-#### Q: Every role is duplicated
-
-This problem can be identified by the number "2" (or more) seen on every role. In addition, the name (or same ID) is listed twice in the information box. For example:
-
-![Duplicate roles problem](images/organogram_duplicates_problem.png)
-
-If this is the case, [contact us](http://data.gov.uk/contact) so that we can ask the supplier to sort it out.
-
 #### Q: How do I copy and paste my spreadsheet data onto a new template spreadsheet?
 
 A number of upload problems can be solved by transferring the data from your existing spreadsheet file to a fresh organogram template file. This is quick to do if you use these instructions:
@@ -102,11 +94,20 @@ A number of upload problems can be solved by transferring the data from your exi
   (final data) junior-staff  | A2:E6000   | A2
   (final data) junior-staff  | H2:J6000   | H2
 
-#### Q: How do I fix an spreadsheet that isn't "valid Excel"?
+
+## Publication problems and solutions
+
+#### Every role is duplicated
+
+This problem can be identified by the number "2" (or more) seen on every role. In addition, the name (or same ID) is listed twice in the information box. For example:
+
+![Duplicate roles problem](images/organogram_duplicates_problem.png)
+
+If this is the case, [contact us](http://data.gov.uk/contact) so that we can ask the supplier to sort it out.
+
+#### "That doesn't look like a valid Excel spreadsheet."
 
 ![not valid Excel spreadsheet error message during upload](images/organogram_upload_not_valid_excel.png)
-
-"That doesn't look like a valid Excel spreadsheet."
 
 (not to be confused with messages concerning an "invalid" spreadsheet - see below)
 
@@ -119,11 +120,9 @@ This may be because:
 
 Correct the filename extension using Windows Explorer or Mac Finder before re-uploading.
 
-#### Q: How do I fix an "invalid" spreadsheet?
+#### "The spreadsheet is invalid. Please check your data and try again."
 
 ![invalid spreadsheet error message during upload](images/organogram_upload_invalid.png)
-
-"The spreadsheet is invalid. Please check your data and try again."
 
 (not to be confused with the error below about an "older spreadsheet template")
 
@@ -145,7 +144,7 @@ More recent versions of the spreadsheet help you further by highlighting red the
 
 Once all problems are resolved and the 'WORKBOOK VALID?' indicator has gone green and you still get an error when you try to upload it, then [contact us](http://data.gov.uk/contact), supplying the file in question.
 
-#### Q: How do I fix an "older spreadsheet template"?
+#### "older spreadsheet template"
 
 ![invalid spreadsheet / "older spreadsheet template" error message during upload](images/organogram_upload_invalid_older.png)
 
@@ -165,7 +164,7 @@ Follow these steps to find and solve the fault:
 
 If you still get the error on upload, you could try getting a fresh template and copy and paste the data across to it.
 
-#### Q: How do I fix error: "Could not find junior sheet"
+#### "Could not find junior sheet"
 
 !["Could not find junior sheet" error message during upload](images/organogram_upload_invalid_finding_sheet.png)
 
@@ -177,7 +176,15 @@ Follow these steps to find and solve the fault:
 * Check that the spreadsheet is not password protected. (It would prompt for the password when you open it in Excel.)
 * Check that the key sheets are still called "(final data) senior-staff" and "(final data) junior-staff". Check that on sheet "(final data) junior-staff" there is still the validation block is still in column X in rows 1 to 6. If you can't fix any problems, [contact us](http://data.gov.uk/contact) to get the latest template and [copy and paste your data into it](#q-how-do-i-copy-and-paste-my-spreadsheet-data-onto-a-new-template-spreadsheet).
 
-#### Q: Why hasn't our organogram appeared?
+#### Junior roles haven't appeared
+
+Occasionally, the senior roles will show, but none of the junior roles, when viewing or previewing the organogram. This can be caused by blank rows in the junior sheet:
+
+![Missing row in spreadsheet](images/organogram_missing_row.png)
+
+Check for missing rows in the "(final data) junior-staff" sheet and re-upload.
+
+#### Organogram has not appeared publicly
 
 Here is a check-list for when you've uploaded organogram data and don't see it appear at <http://data.gov.uk/organogram/>.
 
