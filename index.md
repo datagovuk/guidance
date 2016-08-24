@@ -58,6 +58,8 @@ layout: "default"
 
 * [Organogram data - Staff Roles and Salaries - publishing by central government](organogram-data.html)
 
+* [Contracts Finder Archive managements](contracts_finder_archive_management.html)
+
 * [Publisher FAQ](publisher_faq.html)
 
 ## For Admins
