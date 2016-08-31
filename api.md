@@ -39,7 +39,7 @@ Further examples are at: [Finding Data](finding_data.html#keyword-search-tips).
 
 **NB** Remember to escape these URLs. Most browsers will escape these automatically when you click on these example links, but python clients etc. will mostly need them URL encoded (spaces to `%20` etc). And on the command-line remember to quote the whole URL e.g. use single quotes:
 
-    curl 'https://data.gov.uk/api/action/package_search?fq=res_url:"https://opendatacommunities.org/data/postcodes/dump"'
+    curl 'https://data.gov.uk/api/action/package_search?fq=res_url:"http://opendatacommunities.org/sparql"'
 
 
 ## Organization hierarchy
