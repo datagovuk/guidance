@@ -99,6 +99,12 @@ You can add more files (some returns, even if they are single may contain more t
 
 Although it says "files" you should also add links to APIs here (eg SPARQL, WMS, etc). Usually that is the root URL of an API that might not return much by default, but it is still good to add it here. If you have a web page that helps you call SPARQL queries then a link to that would go in the Additional Resources section - see below.
 
+#### Note about gov.uk files
+
+For files on gov.uk (using 'Whitehall', appearing hear: https://www.gov.uk/government/publications), the data URL you supply should be to the download link, not the web page. i.e. where it says "Download as CSV", right-click and click "Copy link address", before right-clicking back on the field on the data.gov.uk form and clicking "Paste".
+
+NB that if you update the file in future on gov.uk, you MUST use the same filename. Otherwise the URL will get changed and you will have to update the URL on data.gov.uk too.
+
 ### Time series
 
 ![time series files](images/dataset-timeseries.png)
