@@ -85,14 +85,18 @@ A number of upload problems can be solved by transferring the data from your exi
 
 * You don't need to copy the "working" sheets if you don't want to - the system doesn't need them.
 
-* Copying the "final data" sheets needs to be done in parts because you can't paste into the locked cells, which are the header (first) row and the greyed-out columns. To be specific, here are the ranges to copy and paste:
+* Copy the "final data" sheets. NB you need to be aware of two things:
 
-  Sheet                      | Copy cells | Paste in the new workbook at
-  ---------------------------|------------|-----------------------------
-  (final data) senior-staff  | A2:N2000   | A2
-  (final data) senior-staff  | P2:R2000   | P2
-  (final data) junior-staff  | A2:E6000   | A2
-  (final data) junior-staff  | H2:J6000   | H2
+    1. Instead of normal "Paste" you must use "Paste special" and select "Values". Otherwise the cells that are invalid will not show up with a red background any more. (You would have overwritten the cells' "conditional formatting".)
+
+    2. The copy needs to be done in parts because you can't paste into the protected/locked cells, which are the header (first) row and the greyed-out columns. To be specific, here are the ranges to copy and paste:
+
+        Sheet                      | Copy cells | Paste in the new workbook at
+        ---------------------------|------------|-----------------------------
+        (final data) senior-staff  | A2:N2000   | A2
+        (final data) senior-staff  | P2:R2000   | P2
+        (final data) junior-staff  | A2:E6000   | A2
+        (final data) junior-staff  | H2:J6000   | H2
 
 * When pasting the (final data) you may be asked "A formula or sheet you want to move or copy contains the name 'listJobTitle', which already exists on the destination worksheet. Do you want to use this version of the name?". Answer "Yes". This appears several times - just keep clicking "Yes".
 
