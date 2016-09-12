@@ -94,6 +94,7 @@ A number of upload problems can be solved by transferring the data from your exi
   (final data) junior-staff  | A2:E6000   | A2
   (final data) junior-staff  | H2:J6000   | H2
 
+* When pasting the (final data) you may be asked "A formula or sheet you want to move or copy contains the name 'listJobTitle', which already exists on the destination worksheet. Do you want to use this version of the name?". Answer "Yes". This appears several times - just keep clicking "Yes".
 
 ## Publication problems and solutions
 

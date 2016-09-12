@@ -46,4 +46,4 @@ To get started, [download jq](https://stedolan.github.io/jq/download/) and [JSON
 
     jq ".[0]" data.gov.uk-ckan-meta-data-latest.json
 
-And refer to the jq documentation: 
+And refer to the jq documentation: <https://stedolan.github.io/jq/manual/>
