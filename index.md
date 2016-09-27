@@ -58,6 +58,8 @@ layout: "default"
 
 * [Organogram data - Staff Roles and Salaries - publishing by central government](organogram-data.html)
 
+  * [Organogram upload](organogram-upload.html)
+
   * [Organogram transition October 2016](organogram-transition.html)
 
 * [Contracts Finder Archive management](contracts_finder_archive_management.html)
