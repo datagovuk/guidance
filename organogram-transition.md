@@ -3,6 +3,9 @@ layout: "default"
 title: "Organogram transition October 2016"
 ---
 
+
+IMPORTANT: Uploading of organogram data is currently disabled! The service is undergoing a short transition, as explained by the guidance below.
+
 This page is to explain the transition for central government bodies to the new organogram system, launching on 3rd October 2016.
 
 ## Context
