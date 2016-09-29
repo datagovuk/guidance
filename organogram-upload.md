@@ -1,9 +1,9 @@
 ---
 layout: "default"
-title: "Organogram upload"
+title: "Organogram upload and publish"
 ---
 
-You can now (from 3rd October 2016) upload organogram data (sometimes called ‘organogram returns’) to data.gov.uk.
+You can now (from 3rd October 2016) upload and publish organogram data (sometimes called ‘organogram returns’) on data.gov.uk.
 
 Before you start, you must:
 
