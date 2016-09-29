@@ -83,3 +83,5 @@ layout: "default"
 * [Publisher editing](publisher_editing.html)
 
 * [Moderation queue](moderation_queue.html)
+
+* [Metadata management from the command-line](metadata_management_from_the_commandline.html)
