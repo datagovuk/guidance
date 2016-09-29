@@ -28,9 +28,9 @@ You must have a data.gov.uk account with 'editor' or 'admin' permissions to publ
 
 ## View your organograms
 
-1. Sign in to data.gov.uk.
+1. [Sign in to data.gov.uk](https://data.gov.uk/user).
 
-2. Click the 'Organogram publication' link at the top of your profile page.
+2. Click the 'Organogram publication' link at the top of your [profile page](https://data.gov.uk/user).
 
 3. Find your organisation in the list of publishers and select it.
 
@@ -40,6 +40,8 @@ You must have a data.gov.uk account with 'editor' or 'admin' permissions to publ
 
 
 ## Uploading and publishing a new organogram
+
+(These instructions follow on from [View your organograms](#view-your-organograms))
 
 1. Find the organogram you need to publish in the list. They're ordered by date with the most recent at the top of the list.
 
@@ -74,6 +76,8 @@ You must have a data.gov.uk account with 'editor' or 'admin' permissions to publ
 
 ## Updating an existing organogram
 
+(These instructions follow on from [View your organograms](#view-your-organograms))
+
 1. Find the organogram you need to update in the list.
 
 2. Click the 'Delete' button next to it. This will remove the file from data.gov.uk.
@@ -98,4 +102,4 @@ When you're filling it in, make sure:
 - roles don't report to a role that no longer exists ('Eliminated')
 - the 'Valid?' column is green for every row
 
-Check your spreadsheet and try to upload it again. Please refer to the guidance, which explains in detail how to complete every column. If you're still having problems, [Contact us](http://data.gov.uk/contact).
+Check your spreadsheet and try to upload it again. Please refer to the guidance, which explains in detail how to complete every column. If you're still having problems, [contact us](http://data.gov.uk/contact).
