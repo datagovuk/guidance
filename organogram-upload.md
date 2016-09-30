@@ -1,6 +1,6 @@
 ---
 layout: "default"
-title: "Organogram upload and publish"
+title: "Organogram upload and publication"
 ---
 
 From 3 October 2016, you can upload and publish organogram data (sometimes called 'organogram returns') to data.gov.uk.
@@ -30,7 +30,7 @@ You must have a data.gov.uk account with 'editor' or 'admin' permissions to publ
 
 1. [Sign in to data.gov.uk](https://data.gov.uk/user).
 
-2. Click the 'Organogram publication' link at the top of your [profile page](https://data.gov.uk/user).
+2. Click the '[Organogram publication](https://data.gov.uk/organogram/manage)' link at the top of your [profile page](https://data.gov.uk/user).
 
 3. Find your organisation in the list of publishers and select it.
 
