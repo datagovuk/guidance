@@ -74,7 +74,7 @@ In the near future, the CSV data will be provided for download in dataset record
 
 Publishers can download the guidance about preparing the data here:
 
-    [Organograms and Senior Salaries - preparing the data](https://data.gov.uk/publisher-files/organogram_docs/OrganogramsPreparingTheDataGuidanceSeptember2016.pdf)
+[Organograms and Senior Salaries - preparing the data](https://data.gov.uk/publisher-files/organogram_docs/OrganogramsPreparingTheDataGuidanceSeptember2016.pdf)
 
 If you are not already logged into data.gov.uk it will prompt you to log in first. If your user account does not have 'editor' or 'admin' permission, then you will need to obtain that first – see [Becoming and editor or admin](becoming_an_editor_or_admin.html).
 
@@ -82,7 +82,7 @@ If you are not already logged into data.gov.uk it will prompt you to log in firs
 
 Publishers can download the latest spreadsheet template from data.gov.uk:
 
-    [Blank_Organogram_Template_latest.xls](https://data.gov.uk/publisher-files/organogram_docs/Blank_Organogram_Template_latest.xls)
+[Blank_Organogram_Template_latest.xls](https://data.gov.uk/publisher-files/organogram_docs/Blank_Organogram_Template_latest.xls)
 
 If you are not already logged into data.gov.uk it will prompt you to log in first. If your user account does not have 'editor' or 'admin' permission, then you will need to obtain that first – see [Becoming and editor or admin](becoming_an_editor_or_admin.html).
 
