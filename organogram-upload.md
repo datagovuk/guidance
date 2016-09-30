@@ -102,4 +102,4 @@ When you're filling it in, make sure:
 - roles don't report to a role that no longer exists ('Eliminated')
 - the 'Valid?' column is green for every row
 
-Check your spreadsheet and try to upload it again. Please refer to the guidance, which explains in detail how to complete every column. If you're still having problems, [contact us](http://data.gov.uk/contact).
+Check your spreadsheet and try to upload it again. Please refer to the guidance - [Organograms and Senior Salaries - preparing the data](https://data.gov.uk/publisher-files/organogram_docs/OrganogramsPreparingTheDataGuidanceSeptember2016.pdf) - which explains in detail how to complete every column. If you're still having problems, [contact us](http://data.gov.uk/contact).
