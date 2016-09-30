@@ -7,8 +7,8 @@ From 3 October 2016, you can upload and publish organogram data (sometimes calle
 
 Before you start, you must:
 
-* [read our guidance] to find out what data your organisation must publish
-* get a copy of the previous organogram spreadsheet or [download a new spreadsheet template]
+* [read our guidance](https://data.gov.uk/publisher-files/organogram_docs/OrganogramsPreparingTheDataGuidanceSeptember2016.pdf) to find out what data your organisation must publish
+* get a copy of the previous organogram spreadsheet or [download a new spreadsheet template](https://data.gov.uk/publisher-files/organogram_docs/Blank_Organogram_Template_latest.xls)
 * fill out the spreadsheet with your organisation data
 
 ## Get an editor account on data.gov.uk
