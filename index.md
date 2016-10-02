@@ -58,7 +58,7 @@ layout: "default"
 
 * [Organogram data - Staff Roles and Salaries - publishing by central government](organogram-data.html)
 
-  * [Organogram upload and publish](organogram-upload.html)
+  * [Organogram upload and publication](organogram-upload.html)
 
   * [Organogram transition October 2016](organogram-transition.html)
 

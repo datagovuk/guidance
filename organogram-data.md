@@ -26,8 +26,8 @@ The ONS classifications can be found the "index" tab: [Public Sector Classificat
 There are a limited number of exceptions to the requirement to publish:
 
  * intelligence agencies
- * Financial and Non-Financial Public Corporations
- * Parliamentary Bodies
+ * public corporations (financial and non-financial)
+ * parliamentary bodies
 
 NB Local authorities publish their senior staff data in a different format - see the LGA guidance: http://schemas.opendata.esd.org.uk/OrganisationStructure
 
@@ -88,7 +88,7 @@ If you are not already logged into data.gov.uk it will prompt you to log in firs
 
 #### Q: Can I publish data for past periods?
 
-Yes, you can now with the [new system](organogram-transition.html).
+Yes, you can now with the [new system](organogram-transition.html). All the past periods are shown on the Organogram Publication page.
 
 #### Q: Can a published organogram be replaced or removed?
 

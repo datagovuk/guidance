@@ -3,7 +3,7 @@ layout: "default"
 title: "Organogram upload and publication"
 ---
 
-From 3 October 2016, you can upload and publish organogram data (sometimes called 'organogram returns') to data.gov.uk.
+Central government publishers should upload and publish organogram data (sometimes called 'organogram returns') to data.gov.uk twice a year. (From 3 October 2016, the website system for this [changed to data.gov.uk](organogram-transition.html).)
 
 Before you start, you must:
 
