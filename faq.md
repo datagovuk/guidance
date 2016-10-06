@@ -41,7 +41,7 @@ If none of these help, try using an internet search engine to find a way to cont
 
 ### Can you provide me with data about X?
 
-Firstly, see if the data is listed on data.gov.ukalready - see [Do you have data about X](#do-you-have-data-about-x)?
+Firstly, see if the data is listed on data.gov.uk already - see [Do you have data about X](#do-you-have-data-about-x)?
 
 If the data is not listed but you believe it is collected by a public sector body, then log-in and [create a Data Request](http://data.gov.uk/node/add/dataset-request) - describing in detail the data that should be released and the value to the public of it being published. The holder of the data will be contacted and your request will be tracked.
 
