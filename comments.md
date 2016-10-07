@@ -45,3 +45,5 @@ You can also subscribe to receive emailed about dataset changes and comments:
    Now you will receive emails, such as:
 
    ![Subscription email](images/subscriptions_email.png)
+
+   Note: This "publisher subscription" will not be listed under "Current subscriptions", which is only for subscription to individual datasets etc. So don't worry if it says "You are not subscribed to any content"
