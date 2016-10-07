@@ -6,6 +6,8 @@ layout: "default"
 
 * [Finding Data](finding_data.html)
 
+* [Comments](comments.html)
+
 * [FAQ](faq.html)
 
 * [API](api.html)
@@ -43,6 +45,8 @@ layout: "default"
 * [Publisher Tools](publisher_tools.html)
 
 * [Reports](reports.html)
+
+* [Comments](comments.html)
 
 * [Glossary](glossary.html)
 
