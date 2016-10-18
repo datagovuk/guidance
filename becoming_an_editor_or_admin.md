@@ -71,8 +71,10 @@ This account is currently the same as one for any member of the public - it can 
 
 2. Search the name of the publisher for which you need editor/admin permissions and go to its main page by clicking it. NB If the publisher is not listed, please use the Contact link at the bottom of the web page and request it is added.
 
-3. Click on the administrators icon on the icon bar on the top right of the page. Select ‘request to become an editor’.
+3. Click on the administrators icon on the icon bar towards the top right of the page. Select ‘request to become an editor’.
 ![editor request link](images/become_editor_request_link.png)
+
+   Occasionally users cannot see the icon bar, due to network security. In this case, in your browser address bar, manually insert into the URL "apply/" before the publish name. e.g. `https://data.gov.uk/publisher/cabinet-office` becomes `https://data.gov.uk/publisher/apply/cabinet-office`. Now press Enter/Return to load the next page.
 
 4. Fill out the form stating your position that gives you the authority to publish data on behalf of the organization.
 ![editor request form](images/become_editor_request_form.png)
