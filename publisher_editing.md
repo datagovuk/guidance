@@ -17,7 +17,7 @@ The publisher form can be edited:
 
 Once changes are complete, click "Save Changes".
 
-## Publisher rename
+## Rename a publisher
 
 Government organizations often change names. We have slightly different policies depending on how substantial the change is:
 
