@@ -5,16 +5,17 @@ title: "data.gov.uk metadata dumps"
 
 Every night the dataset catalogue of data.gov.uk is recorded as files, so that they are available in bulk and a record of changes time is built-up. These files are themselves data, and are catalogued here: <https://data.gov.uk/dataset/data_gov_uk-datasets>
 
-There are two versions:
+There are three versions:
 
-* JSON format - contains every property of the datasets
-* CSV format - a zip of datasets.csv and resources.csv, which the main properties of each
+* JSONL "v2" format - contains all properties of the datasets. Extras are given as a list of sets.
+* JSON format - contains most properties of the datasets - all apart from qa, archiver and harvesting. No "organization" details - just "owner_id". Extras are given as a set.
+* CSV format - a zip of datasets.csv and resources.csv, with the main properties of each
 
 These files are big and so we provide some hints of a few ways to use them.
 
 ## Use Excel/LibreOffice to filter & sort
 
-datasets.csv opens in Excel or similar (give it a few seconds to load the 30k rows).
+datasets.csv opens in Excel or similar (give it a few seconds to load the 40k rows).
 
 Select the first row (click on the "1" on the left side) and then from the "Data" menu select "Filter" or "Autofilter" (LibreOffice has it under "Data \| Filter \| Autofilter").
 
@@ -38,12 +39,34 @@ The autofilter is a bit transitory and working in a sheet with hidden rows is a 
 
 "jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data." https://stedolan.github.io/jq/
 
-For example, you can filter for all the records by CEFAS and create a CSV with columns for name, title, guid and metadata_modified using this command:
+To get started, [download jq](https://stedolan.github.io/jq/download/) and either the [JSONL dump](https://data.gov.uk/data/dumps/data.gov.uk-ckan-meta-data-latest.v2.jsonl.zip) or [JSON dump](http://www.data.gov.uk/data/dumps/data.gov.uk-ckan-meta-data-latest.json.zip) and unzip them.
 
-    jq -r '.[] | select(.owner_org=="2f1c6ccb-3f21-40c0-8b26-41566c53eb2f") | [.name, .title, .extras.guid?, .metadata_modified] | @csv' data.gov.uk-ckan-meta-data-2015-12-03.json
+Examples are below, but for more help, refer to the jq documentation: <https://stedolan.github.io/jq/manual/>
 
-To get started, [download jq](https://stedolan.github.io/jq/download/) and [JSON dump](http://www.data.gov.uk/data/dumps/data.gov.uk-ckan-meta-data-latest.json.zip). Now show the first record:
+### JSONL dump
+
+Show all the records in the JSON dump but prettified:
+
+    jq . data.gov.uk-ckan-meta-data-latest.v2.jsonl
+
+Show the first record prettified (uses sed to extract the line number and use jq to format it):
+
+    sed -n '1,1p' data.gov.uk-ckan-meta-data-latest.v2.jsonl | jq .
+
+Filter for all the records by CEFAS and create a CSV with columns for name, title, guid and metadata_modified using this command:
+
+    jq '. | select(.organization.name=="centre-for-environment-fisheries-aquaculture-science") | [.name, .title, .extras.guid?, .metadata_modified] | @csv' data.gov.uk-ckan-meta-data-latest.v2.jsonl
+
+### JSON dump
+
+Show all the records in the JSON dump but prettified:
+
+    jq . data.gov.uk-ckan-meta-data-latest.json
+
+Show the first record prettified:
 
     jq ".[0]" data.gov.uk-ckan-meta-data-latest.json
 
-And refer to the jq documentation: <https://stedolan.github.io/jq/manual/>
+Filter for all the records by CEFAS and create a CSV with columns for name, title, guid and metadata_modified using this command:
+
+    jq -r '.[] | select(.owner_org=="2f1c6ccb-3f21-40c0-8b26-41566c53eb2f") | [.name, .title, .extras.guid?, .metadata_modified] | @csv' data.gov.uk-ckan-meta-data-latest.json
