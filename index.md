@@ -8,6 +8,8 @@ layout: "default"
 
 * [Comments](comments.html)
 
+* [History of changes](history.html)
+
 * [FAQ](faq.html)
 
 * [API](api.html)
