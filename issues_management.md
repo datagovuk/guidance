@@ -9,7 +9,7 @@ Members of the public can raise 'issues' against datasets on data.gov.uk. This a
 
 It is a public process to avoid users raising duplicates and to be transparent about publisher efforts made to resolve them.
 
-The issues functionality is being gradually rolled out to more and more publishers from October 2015. This means that only a proportion of all datasets can have issues raised against them until it is fully rolled out.
+The issues functionality was trialled with a few departments from October 2015 - January 2017. Further work is envisaged, but for now the functionality is mostly disabled. Currently, only the few datasets with an existing issue are active.
 
 # Tour
 
@@ -52,19 +52,8 @@ Emails are sent to the admins & editors of the publisher of the dataset, who can
 
    Now you've said what you've done, or explained why it isn't an issue, you can mark it as 'Closed' by clicking "Close issue". NB you have to have some text in the Comment box when you click "Close issue" - if you've already explained in a previous comment, then just write "Closing" in the box before clicking "Close issue".
 
-# Can I get an overview?
-
-You can see all the issues for each publisher by going to the publisher page, clicking on the "bar chart" (reports) icon and then clicking "Issues":
-
-![Link to publisher issues](images/issue_publisher_link.png)
-
-This shows all the issues for the publisher e.g.:
-
-![Link to publisher issues](images/issue_publisher.png)
-
 # What notification emails are sent?
 
 Notification emails go to the admins and editors of the publisher (organization) to whom the dataset is associated, as well as the person who raised the issue. In the future we plan to allow users to opt-out of these emails, but for the time being, all those that are involved in publishing will get these very occasional emails and ensure no important issues are missed.
 
 Emails are sent when an issue is created, commented-on or closed.
-
