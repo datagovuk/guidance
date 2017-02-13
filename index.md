@@ -91,3 +91,5 @@ layout: "default"
 * [Moderation queue](moderation_queue.html)
 
 * [Metadata management from the command-line](metadata_management_from_the_commandline.html)
+
+* [Themes management](themes_management.html)
