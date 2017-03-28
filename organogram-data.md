@@ -29,6 +29,8 @@ There are a limited number of exceptions to the requirement to publish:
  * public corporations (financial and non-financial)
  * parliamentary bodies
 
+Staff who work for intelligence agencies should not be reported in the organogram.
+
 NB Local authorities publish their senior staff data in a different format - see the LGA guidance: http://schemas.opendata.esd.org.uk/OrganisationStructure
 
 ## Timing
