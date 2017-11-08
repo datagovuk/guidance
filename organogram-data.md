@@ -66,9 +66,7 @@ data.gov.uk provide schemas for the senior and junior CSV files. These describe 
 
 The Cabinet Office provides departments with an Excel template file, which is completed with the data and is then submitted into the data.gov.uk Organogram Tool. This system performs validation, ensures salaries are rounded to the nearest 5k and converts the data into RDF format. The RDF is put into the organogram triple store (for SPARQL queries) and served in the Linked Data API.
 
-Publishing organisations should [contact the data.gov.uk team](https://data.gov.uk/contact) to obtain the Excel template and details of the upload into the data.gov.uk Organogram Tool.
-
-In the near future, the CSV data will be provided for download in dataset records in data.gov.uk automatically. So far, several organizations have provided their own copies of the organogram data in CSV format on data.gov.uk and gov.uk manually.
+In the future, the CSV data will be provided for download in dataset records in data.gov.uk automatically. So far, several organizations have provided their own copies of the organogram data in CSV format on data.gov.uk and gov.uk manually.
 
 ## Publication FAQ
 
