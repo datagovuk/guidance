@@ -104,7 +104,7 @@ Include most things apart from payments to staff.
 
 See the full lists:
 
- * [HMT Guidance PDF](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/198197/Guidance_for_publishing_spend_over__25k.pdf) section 4.3
+ * [HMT Guidance PDF](https://www.gov.uk/government/publications/guidance-for-publishing-spend-over-25000) section 4.3
  * [LGTC 2015](https://www.gov.uk/government/publications/local-government-transparency-code-2015) section "Exclusions and exemptions"
 
 ## Can it just be on our own website or must it be on data.gov.uk as well?
