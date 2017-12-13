@@ -84,7 +84,7 @@ Optional fields: Supplier postcode, Supplier type, Contract number, Project code
 
 > include transaction date, transaction reference, merchant name and the amount spent
 
-(from [Government Procurement guidance](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/219671/pan-gp-card-policy.pdf))
+(from [Government Procurement guidance](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/667010/Payment_Cards_Pan-Government_Policy_v2.0_Dec_2017__PUBLISHED_.pdf))
 
 data.gov.uk is not aware of any specific guidance on column names.
 
