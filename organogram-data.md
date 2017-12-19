@@ -7,7 +7,11 @@ title: "Organogram data - Staff Roles and Salaries - publishing by central gover
 
 The Prime Minister committed central government and agencies to publish organograms of all staff positions from October 2010. The data includes the hierarchy of senior staff, including names, grades, job titles & salaries and numbers of junior staff that report to them.
 
-Prime Minister's letter: [Letter to government departments on opening up data, May 2010](https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data)
+Prime Minister's letters: 
+[Letter to government departments on opening up data, May 2010](https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data)
+and
+[Letter on government transparency and open data, Dec 2017](https://www.gov.uk/government/publications/letter-from-the-prime-minister-on-government-transparency-and-open-data)
+
 
 ## Which bodies are required to do this?
 
