@@ -41,33 +41,21 @@ Editors are the people in charge of creating metadata records for their organisa
 
 ## Getting an account
 
-1. At <http://data.gov.uk/>, click on "Register" at the top right of the screen: ![user register link](images/user_register_link.png)
+1. Go to <http://data.gov.uk/user/register>
 
-2. Complete the user registration form
+2. Complete the user registration form and click "Create new account"
 
-![user register form](images/user_register_thumb.png)
-
-Click "Create new account"
-
-![user register post message](images/user_register2.png)
-
-The email should arrive in your in-box within 30 minutes (check your spam folder).
-
-![user validation email](images/user_register_email_thumb.png)
+An email should arrive in your in-box within 30 minutes (check your spam folder).
 
 3. Click the validation link in the email to validate email address, which activates your account.
 
-![user validation email](images/user_register_validated.png)
+Note: if you do not validate your email address within 5 days then your account will be deleted. In this case, simply create another account.
 
-   Note: if you do not validate your email address within 5 days then your account will be deleted. In this case, simply create another account.
-
-You can tell that you are logged in by seeing your user name at the top right, next to the "My Content" and "Log out" links.
-
-This account is currently the same as one for any member of the public - it can create comments, submit apps, make data requests etc. But it is not an editor or admin yet. You can tell this visually because there is no "Publisher tools" button at the top right next to the search box.
+You will now need to become an editor
 
 # Become an Editor
 
-1. Log in and click on 'Data' in data.gov.uk's menu and then click 'Publishers' from the submenu.
+1. Go to https://data.gov.uk/publisher
 
 2. Search the name of the publisher for which you need editor/admin permissions and go to its main page by clicking it. NB If the publisher is not listed, please use the Contact link at the bottom of the web page and request it is added.
 
