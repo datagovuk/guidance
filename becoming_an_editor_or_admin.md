@@ -64,15 +64,11 @@ You will now need to become an editor
    Occasionally users cannot see the icon bar, due to network security. If this is the case, in your browser address bar, manually insert into the URL "apply/" before the publish name. e.g. `https://data.gov.uk/publisher/cabinet-office` becomes `https://data.gov.uk/publisher/apply/cabinet-office`. Now press Enter/Return to load the next page.
 
 4. Fill out the form stating your position that gives you the authority to publish data on behalf of the organization.
-![editor request form](images/become_editor_request_form.png)
 
 5. Take note of which department or organization the request was emailed to.
-![editor request response](images/become_editor_request_submitted.png)
 You should be emailed by this organization when you have been made an editor. If you don't hear back for a couple of days, contact the data.gov.uk team using the Contact link at the bottom of the web page.
 
 Once you are an editor or admin you will see the blue "Publisher tools" button when logged in, and can now [publish data](publishing_on_data_gov_uk_overview.html).
-
-![publisher tools button](images/become_editor_publisher_tools_button.png)
 
 # Become an Admin
 
