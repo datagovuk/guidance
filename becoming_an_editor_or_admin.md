@@ -55,7 +55,7 @@ You will now need to become an editor
 
 # Become an Editor
 
-1. Go to https://data.gov.uk/publisher
+1. Go to <https://data.gov.uk/publisher>
 
 2. Search the name of the publisher for which you need editor/admin permissions and go to its main page by clicking it. NB If the publisher is not listed, please use the Contact link at the bottom of the web page and request it is added.
 
