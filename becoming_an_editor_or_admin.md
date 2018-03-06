@@ -11,7 +11,7 @@ If you have an admin account for your organisation you’ll also be responsible 
 * adding editor and admin accounts
 * updating details about your organisation 
 
-### Permissions explained
+## Permissions explained
 
 Admins can also:
 
@@ -24,7 +24,7 @@ Editors can also:
 
 * manage and configure the harvesting for their organisation
 
-### How to get an account
+## How to get an account
 
 1. Go to <http://data.gov.uk/user/register>. Choose a username and password to complete the registration. Click 'Create new account'.
 
@@ -35,7 +35,7 @@ Editors can also:
 Once you have an account, you will need to request to become an editor or admin for your organisation.
 
 
-### Become an editor or admin
+## Become an editor or admin
 
 1. Sign in to your account and go to <https://data.gov.uk/publisher>
 
@@ -49,10 +49,16 @@ You can make a note of the organisation that your request has been sent to shoul
 
 If you cannot see the administrators icon it may be because of the security settings on your network. You can go to the correct page by manually editing the URL in your browser by adding ‘apply’. 
 
- 
+For example
 
-Once you are an editor or admin you will see the blue "Publisher tools" button when logged in, and can now [publish data](publishing_on_data_gov_uk_overview.html).
+This URL
+`https://data.gov.uk/publisher/cabinet-office` 
+becomes `https://data.gov.uk/publisher/apply/cabinet-office`. 
 
-# Become an Admin
+[Contact the team](https://data.gov.uk/contact)If you need help with this, or have any questions.
 
-Follow the same [instructions as for editor](#become-an-editor) but be sure to mention in your request that you would like be the Admin and take responsibility for approving other users for your publisher (and any sub publishers).
+Once set up as an editor or admin, you will see the ‘Publisher tools’ button where you must sign in to start [publishing your datasets](publishing_on_data_gov_uk_overview.html).
+
+### Request a new publisher
+
+If a publisher isn’t listed on the site, you can [Contact the team](https://data.gov.uk/contact) for them to be added.
