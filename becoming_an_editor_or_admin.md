@@ -63,4 +63,4 @@ Once set up as an editor or admin, you will see the ‘Publisher tools’ button
 
 ### Request a new publisher
 
-If a publisher isn’t listed on the site, you can [Contact the team](https://data.gov.uk/contact) for them to be added.
+If a publisher isn’t listed on the site, you can [contact the team](https://data.gov.uk/contact) for them to be added.
