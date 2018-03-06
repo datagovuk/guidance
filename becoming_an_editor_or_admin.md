@@ -55,7 +55,7 @@ This URL
 `https://data.gov.uk/publisher/cabinet-office` 
 becomes `https://data.gov.uk/publisher/apply/cabinet-office`. 
 
-[Contact the team](https://data.gov.uk/contact)If you need help with this, or have any questions.
+[Contact the team](https://data.gov.uk/contact) If you need help with this, or have any questions.
 
 Once set up as an editor or admin, you will see the ‘Publisher tools’ button where you must sign in to start [publishing your datasets](publishing_on_data_gov_uk_overview.html).
 
