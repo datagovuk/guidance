@@ -49,11 +49,13 @@ You can make a note of the organisation that your request has been sent to shoul
 
 If you cannot see the administrators icon it may be because of the security settings on your network. You can go to the correct page by manually editing the URL in your browser by adding ‘apply’. 
 
-For example
+For example:
 
 This URL
+
 `https://data.gov.uk/publisher/cabinet-office` 
-becomes `https://data.gov.uk/publisher/apply/cabinet-office`. 
+becomes 
+`https://data.gov.uk/publisher/apply/cabinet-office`. 
 
 [Contact the team](https://data.gov.uk/contact) If you need help with this, or have any questions.
 
