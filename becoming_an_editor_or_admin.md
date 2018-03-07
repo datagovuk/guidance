@@ -14,7 +14,7 @@ Admins can also:
 * create and add new editors or admins
 * approve editor requests
 * manage the activity of editors
-* respond to FOI requests (unless otherwise specified by the publisher)
+* respond to freedom of information requests (if agreed by the publisher)
 * update details about your organisation 
 
 Editors can also:
