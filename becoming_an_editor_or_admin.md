@@ -1,75 +1,63 @@
 ---
-title: Becoming an Editor or Admin
+title: Becoming an editor or admin
 layout: "default"
 ---
 
-# Administrator and editor accounts
-
-You must have an 'administrator' or 'editor' account if you want to publish on data.gov.uk.
-
-If you have an administrator account, for your organisation you’ll be in charge of:
-
-* appointing other users as editors and other administrators
-* updating details about your organisation on data.gov.uk
-* creating and editing data records on data.gov.uk
-
-If you’re an editor, you’ll be responsible for:
-
-* creating and editing data records on data.gov.uk
-
-You need to ask for an administrator or editor account. There’s no limit on how many administrators or editors your organisation can have.
+To publish on data.gov.uk, you must have an administrator (admin) or editor account.
+Both accounts allow you to create and edit datasets.
 
 
-### Administrator
+## Permissions explained
 
-The administrator (admin) account serves to manage all editors creating/editing metadata under a given parent department. Administrators can create editors within their publisher hierarchy or across the family of publishers.
+Admins can also:
 
-Administrators are:
+* create and add new editors or admins
+* approve editor requests
+* manage the activity of editors
+* respond to FOI requests (unless otherwise specified by the publisher)
+* update details about your organisation 
 
-* The people that will approve your editor rights request
-* First point of contact for FOI request (unless otherwise specified by the publisher)
-* Create editors and other administrators
-* Moderators of the activity of editors across its hierarchy
-* Can edit the details about their publisher (title, description, category etc)
+Editors can also:
 
-### Editor
+* manage and configure the harvesting for their organisation
 
-Editors are the people in charge of creating metadata records for their organisations in Data.gov.uk. They have the ability to create and edit metadata for their assigned organisation. Editors are also responsible for regularly checking the comments on their datasets to capture ideas, clarify questions users of the data may have or discover, via feedback on the page, issues with the quality of the data. Editors:
+## How to get an account
 
-* Create and edit metadata records (or configure their harvesting) for their organisation
-* Take implied responsibility for keeping up to date with questions and issues with their records raised in the comments section of the metadata record page
+1. Go to <https://data.gov.uk/user/register>. Choose a username and password to complete the registration. Click 'Create new account'.
 
-## Getting an account
+2. We'll send an email within 30 minutes asking you to confirm the account details. We recommend checking your spam folder if you can't see the email. Once you've validated your email address,  we'll activate the account.
 
-1. Go to <http://data.gov.uk/user/register>
+3. You must confirm your email address within 5 days. After this, you'll need to start again and create a new account.
 
-2. Complete the user registration form and click "Create new account"
+Once you have an account, you will need to request to become an editor or admin for your organisation.
 
-An email should arrive in your in-box within 30 minutes (check your spam folder).
 
-3. Click the validation link in the email to validate email address, which activates your account.
+## Become an editor or admin
 
-Note: if you do not validate your email address within 5 days then your account will be deleted. In this case, simply create another account.
+1. Sign in to your account and go to <https://data.gov.uk/publisher>
 
-You will now need to become an editor
+2. Search for the publisher and click on the name. 
 
-# Become an Editor
+3. Go to the the administrators icon on the top right of the page. Click on ‘request to become an editor’. Use this link to send a request to become either an editor or admin.
 
-1. Go to <https://data.gov.uk/publisher>
+4. Fill out the form adding details about your position to publish data on behalf of the organisation. If you want to become      an admin, you must provide information about the authority you have.
 
-2. Search the name of the publisher for which you need editor/admin permissions and go to its main page by clicking it. NB If the publisher is not listed, please use the Contact link at the bottom of the web page and request it is added.
+You can make a note of the organisation that your request has been sent to should you need to check the progress of your application. Usually, approved requests take no more than a few days. You’ll receive a confirmation email from the organisation directly. 
 
-3. Click on the administrators icon on the icon bar towards the top right of the page. Select ‘request to become an editor’.
+If you cannot see the administrators icon it may be because of the security settings on your network. You can go to the correct page by manually editing the URL in your browser by adding ‘apply’. 
 
-   Occasionally users cannot see the icon bar, due to network security. If this is the case, in your browser address bar, manually insert into the URL "apply/" before the publish name. e.g. `https://data.gov.uk/publisher/cabinet-office` becomes `https://data.gov.uk/publisher/apply/cabinet-office`. Now press Enter/Return to load the next page.
+For example:
 
-4. Fill out the form stating your position that gives you the authority to publish data on behalf of the organization.
+This URL
 
-5. Take note of which department or organization the request was emailed to.
-You should be emailed by this organization when you have been made an editor. If you don't hear back for a couple of days, contact the data.gov.uk team using the Contact link at the bottom of the web page.
+`https://data.gov.uk/publisher/cabinet-office` 
+becomes 
+`https://data.gov.uk/publisher/apply/cabinet-office`. 
 
-Once you are an editor or admin you will see the blue "Publisher tools" button when logged in, and can now [publish data](publishing_on_data_gov_uk_overview.html).
+[Contact the team](https://data.gov.uk/contact) If you need help with this, or have any questions.
 
-# Become an Admin
+Once set up as an editor or admin, you will see the ‘Publisher tools’ button where you must sign in to start [publishing your datasets](publishing_on_data_gov_uk_overview.html).
 
-Follow the same [instructions as for editor](#become-an-editor) but be sure to mention in your request that you would like be the Admin and take responsibility for approving other users for your publisher (and any sub publishers).
+### Request a new publisher
+
+If a publisher isn’t listed on the site, you can [contact the team](https://data.gov.uk/contact) for them to be added.
