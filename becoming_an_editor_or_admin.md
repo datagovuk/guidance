@@ -4,21 +4,18 @@ layout: "default"
 ---
 
 To publish on data.gov.uk, you must have an administrator (admin) or editor account.
-
 Both accounts allow you to create and edit datasets.
-If you have an admin account for your organisation you’ll also be responsible for:
 
-* adding editor and admin accounts
-* updating details about your organisation 
 
 ## Permissions explained
 
 Admins can also:
 
+* create and add new editors or admins
 * approve editor requests
-* respond to FOI requests (unless otherwise specified by the publisher)
-* create new editors or admins
 * manage the activity of editors
+* respond to FOI requests (unless otherwise specified by the publisher)
+* update details about your organisation 
 
 Editors can also:
 
@@ -26,7 +23,7 @@ Editors can also:
 
 ## How to get an account
 
-1. Go to <http://data.gov.uk/user/register>. Choose a username and password to complete the registration. Click 'Create new account'.
+1. Go to <https://data.gov.uk/user/register>. Choose a username and password to complete the registration. Click 'Create new account'.
 
 2. We'll send an email within 30 minutes asking you to confirm the account details. We recommend checking your spam folder if you can't see the email. Once you've validated your email address,  we'll activate the account.
 
@@ -41,7 +38,7 @@ Once you have an account, you will need to request to become an editor or admin 
 
 2. Search for the publisher and click on the name. 
 
-3. Go to the the administrators icon on the top right of the page. Click on ‘request to become an editor’. This link must be      used to send all requests to become both an editor or admin.
+3. Go to the the administrators icon on the top right of the page. Click on ‘request to become an editor’. Use this link to send a request to become either an editor or admin.
 
 4. Fill out the form adding details about your position to publish data on behalf of the organisation. If you want to become      an admin, you must provide information about the authority you have.
 
