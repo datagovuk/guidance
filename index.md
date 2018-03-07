@@ -6,10 +6,6 @@ layout: "default"
 
 * [Finding Data](finding_data.html)
 
-* [Comments](comments.html)
-
-* [History of changes](history.html)
-
 * [FAQ](faq.html)
 
 * [API](api.html)
@@ -42,13 +38,9 @@ layout: "default"
 
 * [Data Requests management](data_requests_management.html)
 
-* [Issues management](issues_management.html)
-
 * [Publisher Tools](publisher_tools.html)
 
 * [Reports](reports.html)
-
-* [Comments](comments.html)
 
 * [Glossary](glossary.html)
 
@@ -87,8 +79,6 @@ layout: "default"
 * [Publisher creation](publisher_creation.html)
 
 * [Publisher editing](publisher_editing.html)
-
-* [Moderation queue](moderation_queue.html)
 
 * [Metadata management from the command-line](metadata_management_from_the_commandline.html)
 
