@@ -36,8 +36,6 @@ layout: "default"
 
     * [UK Location Metadata Editor guide (PDF)](http://data.gov.uk/sites/default/files/library/Metadata%20Editor%20User%20Guide.pdf)
 
-* [Data Requests management](data_requests_management.html)
-
 * [Publisher Tools](publisher_tools.html)
 
 * [Reports](reports.html)
