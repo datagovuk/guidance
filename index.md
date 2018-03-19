@@ -22,8 +22,6 @@ layout: "default"
 
     * [Monthly datasets problem](monthly_datasets_problem.html)
 
-    * [Updating problem](updating_problem.html)
-
   * [Harvesting datasets](harvesting.html)
 
     * [DCAT/data.json fields](dcat_fields.html)
