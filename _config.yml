@@ -12,3 +12,6 @@ defaults:
 
 kramdown:
   input: GFM  # Github flavoured markdown allowed
+
+gems:
+  - jekyll-redirect-from
