@@ -1,20 +1,34 @@
 ---
-title: Publishing on data.gov.uk - overview
+title: How to publish your dataset
+
 layout: "default"
 ---
 
-There are two methods for adding datasets to data.gov.uk:
+To publish on Find open data, you must have an administrator (admin) or editor account. Both accounts allow you to create and edit datasets.
 
-1. Using the dataset (web) form. It is a simple & manual process. However it is not suitable for INSPIRE/Location datasets. More:
+<h2 class="heading-large">How to get an account</h2>
+<p>
+<ol type="1">
+  <li>Go to <%= link_to 'https://data.gov.uk/user/register', 'https://data.gov.uk/user/register' %>. Choose a username and password to complete the registration. Click ‘Create new account’.
+</li>
+  <li>We’ll send an email within 30 minutes asking you to confirm the account details. We recommend checking your spam folder if you can’t see the email. Once you’ve validated your email address, we’ll activate the account.
+</li>
+  <li>You must confirm your email address within 5 days. After this, you’ll need to start again and create a new account.</li>
+</ol>  
+</p>
 
-   * [Dataset form for adding/updating datasets](dataset_form.html)
+<p>
+Once you have an account, you will need to request to become an editor or admin for your organisation.
+</p>
+ <h2 class="heading-large">Adding datasets</h2>
+ <p>
+  There are 2 ways to create a dataset and add links to your data. You can manually <%= link_to 'add your dataset', 'https://guidance.data.gov.uk/dataset_form.html' %> from the Publisher tool or you can <%= link_to 'harvest data', 'https://guidance.data.gov.uk/harvesting.html' %> to Find open data.
+  </p>
+  <p>
+    Publishers must first publish the data on their own website, server or on GOV.UK. The publisher tool lets you add a link      to your data, but we do not host the data.</p>
 
-2. Using a harvester. You store the dataset records on your own server and they are 'harvested' regularly into data.gov.uk. It requires some set-up, but it is ideal when there is already a published list of datasets on your site (or elsewhere). More:
 
-   * [Harvesting data into data.gov.uk](harvesting.html)
 
-Before this you need to [register a user account on data.gov.uk and get approved as 'editor' or 'admin' for your publisher](becoming_an_editor_or_admin.html).
 
-NB You can't 'upload data' to data.gov.uk. The data (e.g. spreadsheet file) should be published / uploaded onto your organization's website (which for central government is [gov.uk](https://www.gov.uk/government/publications)) and then you add to data.gov.uk a 'dataset' (record) containing information about the data, including the link to it (e.g. download URL).
 
-[Index of all data.gov.uk guidance](/)
+
