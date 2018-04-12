@@ -22,7 +22,7 @@ Once you have an account, you will need to request to become an editor or admin 
 </p>
  <h2 class="heading-large">Adding datasets</h2>
  <p>
-  There are 2 ways to create a dataset and add links to your data. You can manually [add your dataset](https://guidance.data.gov.uk/dataset_form.html)from the Publisher tool or you can [harvest data](https://guidance.data.gov.uk/harvesting.html) to Find open data.
+  There are 2 ways to create a dataset and add links to your data. You can manually [add your dataset](https://guidance.data.gov.uk/dataset_form.html) from the Publisher tool or you can [harvest data](https://guidance.data.gov.uk/harvesting.html) to Find open data.
   </p>
   <p>
     Publishers must first publish the data on their own website, server or on GOV.UK. The publisher tool lets you add a link      to your data, but we do not host the data.</p>
