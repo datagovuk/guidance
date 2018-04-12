@@ -9,7 +9,7 @@ To publish on Find open data, you must have an administrator (admin) or editor a
 <h2 class="heading-large">How to get an account</h2>
 <p>
 <ol type="1">
-  <li>Go to [https://data.gov.uk/user/register] (https://data.gov.uk/user/register). Choose a username and password to complete the registration. Click ‘Create new account’.
+  <li>Go to [https://data.gov.uk/user/register](https://data.gov.uk/user/register). Choose a username and password to complete the registration. Click ‘Create new account’.
 </li>
   <li>We’ll send an email within 30 minutes asking you to confirm the account details. We recommend checking your spam folder if you can’t see the email. Once you’ve validated your email address, we’ll activate the account.
 </li>
