@@ -1,7 +1,7 @@
 ---
 title: Five Stars of Openness
 layout: "default"
-redirect_to: "https://find-data-beta.cloudapps.digital/site-changes"
+redirect_to: "https://data.gov.uk/site-changes"
 ---
 
 ![five stars of openness](images/five_stars.png)
