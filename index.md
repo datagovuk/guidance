@@ -4,8 +4,6 @@ layout: "default"
 
 ## For users
 
-* [FAQ](faq.html)
-
 * [API](api.html)
 
 * [data.gov.uk metadata dumps](dgu_metadata_dumps.html)
