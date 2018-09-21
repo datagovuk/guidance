@@ -18,7 +18,7 @@ To publish on Find open data, you must have an administrator (admin) or editor a
 </p>
 
 <p>
-Once you have an account, you will need to request to become an editor or admin for your organisation.
+Once you have an account, you will need to <a href="http://guidance.data.gov.uk/becoming_an_editor_or_admin.html">request to become an editor or admin for your organisation</a>.
 </p>
  <h2 class="heading-large">Adding datasets</h2>
  <p>
@@ -26,8 +26,6 @@ Once you have an account, you will need to request to become an editor or admin 
   </p>
   <p>
     Publishers must first publish the data on their own website, server or on GOV.UK. The publisher tool lets you add a link      to your data, but we do not host the data.</p>
-
-
 
 
 
